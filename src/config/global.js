@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Fundamentos y normativa para la ciberseguridad.',
+    descripcionCurso:
+      'En este contenido temático se definen los conceptos, la normativa y procedimientos básicos de la ciberseguridad en entornos corporativos, necesarios para garantizar el funcionamiento seguro de los procesos de la compañía, previniendo ataques cibernéticos a la información y/o datos vulnerables. Se realiza mediante buenas prácticas y procedimientos adecuados a las normas.  ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -32,14 +33,28 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Activos de información',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Normativa',
             hash: 't_1_1',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Caracterización y clasificación de activos tecnológicos.',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Gestión de activos tecnológicos: manejo, preservación y evaluación.',
+            hash: 't_1_3',
           },
         ],
       },
