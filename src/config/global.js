@@ -4,10 +4,10 @@ export default {
     descripcionCurso:
       'En este contenido temático se definen los conceptos, la normativa y procedimientos básicos de la ciberseguridad en entornos corporativos, necesarios para garantizar el funcionamiento seguro de los procesos de la compañía, previniendo ataques cibernéticos a la información y/o datos vulnerables. Se realiza mediante buenas prácticas y procedimientos adecuados a las normas.  ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal1.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        clases: ['banner-principal-decorativo-1ra', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
@@ -65,13 +65,122 @@ export default {
         numero: '2',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Definición de conceptos esenciales.',
+            hash: 't_2_1',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Contextualización y estado del arte.',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Objetivos de la ciberseguridad.',
+            hash: 't_2_3',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Metodología y estrategias.',
+            hash: 't_2_4',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Técnicas de diagnóstico.',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normativa: ISO 27001.',
         desarrolloContenidos: true,
+
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Conceptos generales.',
+            hash: 't_3_1',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Principios.',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Políticas.',
+            hash: 't_3_3',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Técnicas y procedimientos de la norma.',
+            hash: 't_3_4',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Gestión de riesgos.',
+            hash: 't_3_5',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Evaluación y administración.',
+            hash: 't_3_6',
+          },
+        ],
+      },
+
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Manual de ciberseguridad corporativa.',
+        desarrolloContenidos: true,
+
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Objetivos y alcance.',
+            hash: 't_4_1',
+          },
+
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Estructura organizacional.',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Lineamientos y políticas corporativas.',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -116,32 +225,119 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'ISO 27001 - Seguridad de la Información',
+      referencia: 'ISO 27001 - Seguridad de la Información',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=BNdPQU32p2Y&ab_channel=ProcemConsultores ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Análisis de vulnerabilidades',
+      referencia: 'Análisis de vulnerabilidades',
+      tipo: 'Video',
+      descarga:
+        'https://www.youtube.com/watch?v=dwhIZdqFyyI&ab_channel=CloudSeguro ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Activo',
+      significado:
+        'hace referencia a un recurso propio de la empresa que genera y posee en sí mismo un valor, siendo importante para los procesos de esta.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Ciberataque',
+      significado:
+        'cualquier tipo de acción encaminada a causar daños a la información digital de una persona, empresa u otro tipo de organización. Por ejemplo, el robo de información privada, la alteración, destrucción o secuestro de información empresarial.',
+    },
+    {
+      termino: 'Credenciales de acceso',
+      significado:
+        'hace referencia al sistema utilizado para el acceso a carpetas, archivos, ambientes y espacios de la compañía. Las credenciales suelen ser usuario y contraseña, pin de seguridad, control biométrico entre otras.',
+    },
+    {
+      termino: 'Licencia',
+      significado:
+        'en informática, se refiere a las licencias como el acuerdo legal o contrato entre el desarrollador/proveedor del software y el usuario quien, mediante algún tipo de reconocimiento, puede usar dicho programa de manera legal y con derecho al soporte y acceso a las herramientas contratadas. ',
+    },
+    {
+      termino: 'Norma',
+      significado:
+        'es una agrupación de conceptos, procedimientos y reglas sobre determinado tema o actividad, que han sido emitidos por un organismo reconocido con el objetivo de estandarizar, ordenar y definir la manera apropiada de hacer algo.',
+    },
+    {
+      termino: 'Política corporativa',
+      significado:
+        'conjunto de acciones implementadas por la empresa y exigidas a sus colaboradores para realizar las actividades relacionadas con el cumplimiento de los objetivos empresariales y buen funcionamiento de la misma. ',
+    },
+    {
+      termino: 'Procedimiento',
+      significado:
+        'hace referencia al método o conjunto de actividades ordenadas para realizar determinada actividad.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'situación que puede ocurrir en el sistema de información, desencadenando algún tipo de daño o perturbación en este.  ',
+    },
+    {
+      termino: 'Suplantación',
+      significado:
+        'acción de hacerse pasar o tomar responsabilidades  de alguien más  de manera fraudulenta, esto puede ocurrir por ejemplo, cuando se ingresa sin autorización a las cuentas personales o laborales de alguien más, motivado principalmente por el hecho de obtener información sin autorización o consentimiento de su propietario.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'son los puntos o aspectos del sistema que pueden ser susceptibles al sufrir algún tipo de incidente o ciberataque.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020). Ciberseguridad. Editorial CSIC Consejo Superior de Investigaciones Científicas. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/172144?page=7 ',
+    },
+    {
+      referencia:
+        'Delitos informáticos en Colombia subieron un 17 % en el 2021: sepa cómo prevenirlos. (2021). Infobae.',
+      link:
+        'https://www.infobae.com/america/colombia/2021/12/27/delitos-informaticos-en-colombia-subieron-un-17-en-el-2021-sepa-como-prevenirlos/#:~:text=%E2%80%9CSeg%C3%BAn%20cifras%20del%20Centro%20Cibern%C3%A9tico,capturas%E2%80%9D%2C%20revelaron%20las%20autoridades.',
+    },
+    {
+      referencia:
+        'El ciberdelito creció 150% en el último año en el mundo. (2022). Portafolio. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/46247?page=17 ',
+    },
+    {
+      referencia:
+        'ISO 27001:2013 Guía de implantación para la seguridad de la información. (s.f.). Nga.',
+      link:
+        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf .',
+    },
+    {
+      referencia:
+        'La cibercriminalidad costó más de u$s6 billones en 2021. (11 de mayo de 2022). Ámbito.',
+      link:
+        'https://www.ambito.com/mundo/ciberseguridad/la-cibercriminalidad-costo-mas-us6-billones-2021-n5436916',
+    },
+    {
+      referencia:
+        'Ministerio de tecnologías de la información y las telecomunicaciones [mintic].(2021). Política de Seguridad Digital. ',
+      link:
+        'https://www.mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Preguntas-frecuentes/15430:Politica-de-Seguridad-Digital',
+    },
+    {
+      referencia: 'Pérez-Montoro, M. (2009). Gestión del conocimiento.',
+      link:
+        'http://glossarium.bitrum.unileon.es/Home/gestion-del-conocimiento-knowledge-management  ',
+    },
+    {
+      referencia:
+        'Super intendencia de industria y comercio [SIC]. (2018). Metodología para la identificación, clasificación y valoración de activos de información. ',
+      link:
+        'https://www.sic.gov.co/sites/default/files/files/Nuestra_Entidad/Transparencia_y_acceso_a_la_informacion_publica/SC05-I03%20ACTIVOS%20DE%20INFORMACION%20(1)%20(1).doc',
     },
   ],
   creditos: {

@@ -5,20 +5,18 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Activos de información
 
     
-    .row.justify-content-around.align-items-center.mt-5.mb-5
-      .row.justify-content-around.align-items-center
-      .col-lg-10
+    .row.justify-content-around.align-items-center
+      .col-lg-8.col-sm-16
         .bloque-texto-b.color-cajon.boxtema1.p-1
           .bloque-texto-b__texto
             p.mb-2 Para iniciar con el contenido, es necesario conocer algunas definiciones oficiales básicas para comprender la temática que se abordará. Según la guía “Metodología para la Identificación, Clasificación y Valoración de Activos de Información” de la Súper Intendencia de Comercio SIC (2018) en su sección de glosario define al término activo como “cualquier cosa que tiene valor para una organización” (p.2) y se determina el activo de información como:
-         
-           
+                   
       .col-lg-2
-          figure
-            img(src='@/assets/curso/temas/Tema1/imag1.svg', alt='Texto que describa la imagen').imagen-decorativa-1
+        figure
+        img(src='@/assets/curso/temas/Tema1/imag1.svg', alt='Texto que describa la imagen').imagen-decorativa-1
 
 
       p.mt-4 El elemento de información que se recibe o produce en el ejercicio de sus funciones. Incluye la información que se encuentre en forma impresa, escrita, en papel, transmitida por cualquier medio electrónico o almacenado en equipos de cómputo, incluyendo software, hardware, recurso humano, datos contenidos en registros, archivos, bases de datos, videos e imágenes (p.2).
@@ -26,23 +24,23 @@
 
       .row.justify-content-center.mt-3
       .col-lg-11.sm-8
-        .bloque-texto.cajon.box2tem1.p-4.mb-4     
+        .bloque-texto.cajon.box2tem1.p-4.mb-4
           .row
-            .col-lg-2
+            .col-lg-2.mt-1
               figure
                 img(src='@/assets/curso/temas/Tema1/imag2.svg' alt='Texto que describa la imagen' width='52px' height='52px')  
             .col-lg-10
-             
-              p En relación con la seguridad de la información, se refiere a cualquier información o elemento relacionado con el tratamiento de ésta que tenga valor para la entidad, por ejemplo: archivos, bases de datos, expedientes, entre otros.
+             p En relación con la seguridad de la información, se refiere a cualquier información o elemento relacionado con el tratamiento de ésta que tenga valor para la entidad, por ejemplo: archivos, bases de datos, expedientes, entre otros.
 
 
       p Se puede validar la última definición en el siguiente mapa conceptual:
 
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-3
       .col-lg-10.sm-8
-        .titulo-sexto.color-acento-contenido-mercado
+        .titulo-sexto.color-primario
           b  Figura 1.
-          i  Concepto de activos de conocimiento.
+          br
+          i Concepto de activos de conocimiento.
 
 
       .row.justify-content-center.mt-3
@@ -60,12 +58,14 @@
       h2 1.1  Normativa
 
     
-    .row.justify-content-around.align-items-center.mt-2
-          .col-lg-3.col-sm-4
+    .row.justify-content-around.align-items-center
+      .col-9
+        .row
+          .col-lg-2
               figure
                 img(src='@/assets/curso/temas/Tema1/imag3.svg', alt='Texto que describa la imagen' width='84px' height='84,92px' )
           
-          .col-lg-9.col-sm-10
+          .col-lg-10.col-sm-10
             p Existen otros conceptos que se asocian a los activos tecnológicos y de la información que son indispensables conocer para comprender cómo se puede hacer una gestión eficiente de estos.  
 
             p Algunas definiciones de términos claves, referente a los activos de la información con base en la guía “Metodología para la Identificación, Clasificación y Valoración de Activos de Información” de la Súper Intendencia de Comercio SIC (2018) son:
@@ -104,8 +104,8 @@
 
         .row.justify-content-around.align-items-center
           .col-md-4.mb-4.mb-md-0
-            b.mt-4 Integridad                                 
-            p.mt-5 Cualidad de la información, de estar completa y ser exacta.
+              b Integridad                                 
+              p.mt-5 Cualidad de la información, de estar completa y ser exacta.
        
           .col-md-6
             figure
@@ -114,7 +114,7 @@
 
         .row.justify-content-around.align-items-center
           .col-md-4.mb-4.mb-md-0
-            b.mt-4 Disponibilidad                                 
+            b Disponibilidad                                 
             p.mt-5 Característica de la información de estar accesible y utilizable según sea requerida.
        
           .col-md-6
@@ -207,7 +207,7 @@
 
     p.mt-2 Para realizar una gestión correcta de los activos tecnológicos se debe tener claridad sobre las características de cada uno de los elementos que integran el proceso de gestión. 
         
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-4
       .col-lg-7.sm-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--acordion")
           .row(titulo="Manejo")
