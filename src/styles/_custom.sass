@@ -3,13 +3,22 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 7%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 20%
+    right: 7%
+  &-3
+      animation: float1 1.0s linear infinite alternate
+      position: absolute
+      top: 52%
+      right: 35%
+  &-4
+      animation: float1 2.5s linear infinite alternate
+      position: absolute
+      top: 55%
+      right: 60%
 
 @keyframes float1
   0%
@@ -60,7 +69,7 @@
   right: 500px    
   background-color: rgba(255, 255, 255, 0.9)
   position: sticky
-  width: 60%
+  width: 70%
   //text-align: center
 
 @media (max-width: 500px)
@@ -133,10 +142,77 @@
 
 
 .banner-principal-decorativo-1ra
-  animation: float1 3s ease-in-out infinite alternate
-  top: 26%
-  right: -4%
+  animation: float1 1.5s ease-in-out infinite alternate
+  top: 1.0%
+  right: 25%
 
+
+.dimensionimg
+  padding-top: 100%
+
+
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 2.4rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 0rem ))
+    background-color: #FEC2B5
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+        text-align: center
+
+.lineat       
+  text-align: left
+
+.cajdelgada
+  content: ''
+  display: block
+  position: relative
+  top: 50%
+  
+.bg5
+  background-image: url('../assets/curso/temas/Tema2/fondoslider.png')   
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+  border-radius: 10px !important
+
+.tarjeta.color-primario--borde
+  display-flex
+  display: flex !important
+  text-align: left
+
+
+.tarjeta-avatar
+  width: 330px
+  height: 600px
+
+
+.tarjeta--amarilla-1
+  background-color: #fffcef
+
+.caj1
+  top: 10%
+  bottom: 100px
+
+
+  
+ 
+  
 
 
 

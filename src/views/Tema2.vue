@@ -28,35 +28,35 @@
     p.mt-2 Diversos autores definen la ciberseguridad de la siguiente forma:
 
 
-    .tarjeta.bgr-slider.p-4.mt-5
-      SlyderA(tipo="b")
-        .row.justify-content-around.align-items-center
-          .col-md-5.mb-4.mb-md-0
-            b.mt-2 Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020) definen la ciberseguridad así                                
-            p.mt-3 Ciberseguridad, del término de la siguiente forma: “podemos definir la ciberseguridad como el conjunto de técnicas, procedimientos y protocolos encaminados a la protección de la información, vinculada a los usuarios de las cibertecnologías. Esta protección demanda la custodia no solo de la información en sí, sino también de todos los elementos precisos para su correcta gestión. Es decir, la ciberseguridad tiene como objetivo proteger todo tipo de activo o recurso de valor para una persona, empresa u organización (p.12). 
-            p También, asocian tres elementos que debe incluir la ciberseguridad como se observa en el gráfico:
+    .row.justify-content-around.align-items-center
+      SlyderA(tipo="b").bg5
+        .row.mt-.justify-content-center
+          .col-md-5.mb-4.mb-md-0.mt-5
+            b Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020) definen la ciberseguridad así                                
+            p.mt-3.text-small Ciberseguridad, del término de la siguiente forma: “podemos definir la ciberseguridad como el conjunto de técnicas, procedimientos y protocolos encaminados a la protección de la información, vinculada a los usuarios de las cibertecnologías. Esta protección demanda la custodia no solo de la información en sí, sino también de todos los elementos precisos para su correcta gestión. Es decir, la ciberseguridad tiene como objetivo proteger todo tipo de activo o recurso de valor para una persona, empresa u organización (p.12). 
+            p.text-small También, asocian tres elementos que debe incluir la ciberseguridad como se observa en el gráfico:
        
-          .col-md-6
+          .col-md-6.mt-5
             figure
               img(src='@/assets/curso/temas/Tema2/imagslider1.png', alt='Texto que describa la imagen')
               
         .row.justify-content-around.align-items-center
           .col-md-5.mb-4.mb-md-0
             b.mt-2 Otra valiosa definición es la que brinda Giant, N. (2016), quien indica que                         
-            p.mt-3 La ciberseguridad se refiere al uso seguro y responsable de los productos de la tecnología de la información y la comunicación (TIC), incluyendo Internet, los dispositivos móviles y de comunicación y los instrumentos tecnológicos diseñados para guardar, compartir o recibir información, por ejemplo, los teléfonos móviles, las cámaras digitales, etc. (p.17).
-            p Esta definición puede ampliar el concepto de ciberseguridad más allá de los antivirus y los equipos de seguridad de la red, hace énfasis en el usuario, la manera en que actúa y se responsabiliza sobre su propia seguridad y la de su empresa
+            p.mt-4.text-small La ciberseguridad se refiere al uso seguro y responsable de los productos de la tecnología de la información y la comunicación (TIC), incluyendo Internet, los dispositivos móviles y de comunicación y los instrumentos tecnológicos diseñados para guardar, compartir o recibir información, por ejemplo, los teléfonos móviles, las cámaras digitales, etc. (p.17).
+            p.text-small Esta definición puede ampliar el concepto de ciberseguridad más allá de los antivirus y los equipos de seguridad de la red, hace énfasis en el usuario, la manera en que actúa y se responsabiliza sobre su propia seguridad y la de su empresa
        
-          .col-md-6
+          .col-md-6.mt-5
             figure
               img(src='@/assets/curso/temas/Tema2/imagslider2.png', alt='Texto que describa la imagen')
 
 
         .row.justify-content-around.align-items-center
           .col-md-4.mb-4.mb-md-0
-            b.mt-2 Otra valiosa definición es la que brinda Giant, N. (2016), quien indica que                                
-            p.mt-3 La ciberseguridad agrupa recursos de hardware y software junto con políticas, normas y comportamientos seguros, los cuales tienen aplicabilidad para el uso personal, corporativo e industrial; siempre y cuando el personal cuente con formación sobre los cuidados que debe tener para proteger la información. 
+            b  Otra valiosa definición es la que brinda Giant, N. (2016), quien indica que                                
+            p.mt-4.text-small La ciberseguridad agrupa recursos de hardware y software junto con políticas, normas y comportamientos seguros, los cuales tienen aplicabilidad para el uso personal, corporativo e industrial; siempre y cuando el personal cuente con formación sobre los cuidados que debe tener para proteger la información. 
        
-          .col-md-6
+          .col-md-6.mt-5 
             figure
               img(src='@/assets/curso/temas/Tema2/imagslider3.png', alt='Texto que describa la imagen')
 
@@ -69,42 +69,34 @@
 
     p.mt- Para continuar es importante conocer el estado actual de la ciberseguridad en las empresas, el país y el mundo.
 
+    SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/Tema2/carrusel1.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--amarilla-1.p-4
+          h2.text-center.mt-5 Crecimiento exponencial
+          p.text-center Citando nuevamente a Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020), “en España, por ejemplo, en solo un año, entre 2018 y 2019, los ciberdelitos denunciados representaron un 10% del total de denuncias por algún tipo de delito, y en este mismo periodo se tuvo un aumento del 35% de los casos reportados” (p.11).
+
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/Tema2/carrusel2.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--amarilla-1.p-4
+          h2.text-center.mt-5 En Colombia
+          p.text-center Según cifras del Centro Cibernético Policial MinTIC (2021), durante el año 2021 los delitos cibernéticos en Colombia ascendieron a 33.465, lo que significa un aumento de 17 % en comparación con 2020, cuando fueron 28.524 casos. Además, se recibieron 1.558 denuncias y se efectuaron 49 capturas”, revelaron las autoridades.
+
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/Tema2/carrusel3.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--amarilla-1.p-4
+          h2.text-center.mt-5 El precio de los fallos en ciberseguridad
+          p.text-center La revista portafolio (2022) [6] indica que, en el mundo durante el último año, los ciberdelitos crecieron en un 150% y aproximadamente el 32% de las empresas fueron atacadas, estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos, e inclusive gobiernos, así que dichos pagos representan cantidades de dinero considerables. Ámbito (2022)[7] indica que los ciberataques en el 2021 han costado más de 5,7 billones de euros.
+
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/Tema2/carrusel4.svg' alt='AvatarTop')
+        .tarjeta.tarjeta--amarilla-1.p-4
+          h2.text-center.mt-5 Políticas públicas: según MinTIC (2021), el propósito de la política de seguridad digital
+          p.text-center El objetivo general de esta política es que los colombianos y las empresas conozcan e identifiquen los riesgos a los que están expuestos en el entorno digital y aprendan como protegerse, prevenir y reaccionar ante los delitos y ataques cibernéticos.
+          p.text-center Esta labor a nivel institucional requiere un arduo trabajo e inversión conjuntas entre el estado y la empresa privada, labor que tiene un alto componente educativo, el cual exige adoptar una cultura de seguridad digital en el país. 
 
 
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-contenidotarjeta.p-4
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/temas/Tema2/carrusel1.svg' alt='AvatarTop')
-        
-        h2.text-center Crecimiento exponencial
-        p.text-center Citando nuevamente a Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020), “en España, por ejemplo, en solo un año, entre 2018 y 2019, los ciberdelitos denunciados representaron un 10% del total de denuncias por algún tipo de delito, y en este mismo periodo se tuvo un aumento del 35% de los casos reportados” (p.11).
-      
-      .tarjeta.color-acento-contenidotarjeta.p-4
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/temas/Tema2/carrusel2.svg' alt='AvatarTop')
-        h2.text-center En Colombia
-        p.text-center Según cifras del Centro Cibernético Policial MinTIC (2021), durante el año 2021 los delitos cibernéticos en Colombia ascendieron a 33.465, lo que significa un aumento de 17 % en comparación con 2020, cuando fueron 28.524 casos. Además, se recibieron 1.558 denuncias y se efectuaron 49 capturas”, revelaron las autoridades.
-
-      
-      .tarjeta.color-acento-contenidotarjeta.p-4
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/temas/Tema2/carrusel3.svg' alt='AvatarTop')
-        
-        h2.text-center El precio de los fallos en ciberseguridad
-        p.text-center La revista portafolio (2022) [6] indica que, en el mundo durante el último año, los ciberdelitos crecieron en un 150% y aproximadamente el 32% de las empresas fueron atacadas, estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos, e inclusive gobiernos, así que dichos pagos representan cantidades de dinero considerables. Ámbito (2022)[7] indica que los ciberataques en el 2021 han costado más de 5,7 billones de euros.
-      
-      .tarjeta.color-acento-contenidotarjeta.p-4
-        .row.justify-content-center.mb-3
-          .col-6
-            img(src='@/assets/curso/temas/Tema2/carrusel4.svg' alt='AvatarTop')
-        h2.text-center Políticas públicas: según MinTIC (2021), el propósito de la política de seguridad digital
-        p.text-center El objetivo general de esta política es que los colombianos y las empresas conozcan e identifiquen los riesgos a los que están expuestos en el entorno digital y aprendan como protegerse, prevenir y reaccionar ante los delitos y ataques cibernéticos.
-        p.text-center Esta labor a nivel institucional requiere un arduo trabajo e inversión conjuntas entre el estado y la empresa privada, labor que tiene un alto componente educativo, el cual exige adoptar una cultura de seguridad digital en el país. 
-
-      
+   
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido.mt-5
@@ -159,17 +151,20 @@
 
       #t_2_4.titulo-segundo.color-acento-contenido
         h2 2.4.	Metodología y estrategias.
+       
+      .row.mt-1.justify-content-center
+        .tarjeta.color-primario--borde
+          .col-lg-5  
+            figure
+                img(src='@/assets/curso/temas/Tema2/elemento2.png' width='400px' height='171px')
+          
+          .col-lg-6.mt-5
+              p.text-small En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías encargadas de marcar la ruta a seguir, cómo garantía de la seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.  
 
-      .row.mt-3.justify-content-center
-      .col-11
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/elemento2.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías encargadas de marcar la ruta a seguir, cómo garantía de la seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.  
 
-        
+
+
+
 
         .col-lg-6.mt-4
       figure
