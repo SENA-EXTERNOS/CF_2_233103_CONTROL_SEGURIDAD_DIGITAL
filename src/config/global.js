@@ -236,14 +236,15 @@ export default {
   complementario: [
     {
       tema: 'ISO 27001 - Seguridad de la Información',
-      referencia: 'ISO 27001 - Seguridad de la Información',
+      referencia:
+        'Procem Consultores (2018). ISO 27001 - Seguridad de la Información.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=BNdPQU32p2Y&ab_channel=ProcemConsultores ',
     },
     {
       tema: 'Análisis de vulnerabilidades',
-      referencia: 'Análisis de vulnerabilidades',
+      referencia: 'Cloud seguro. (2021). Análisis de Vulnerabilidades.',
       tipo: 'Video',
       descarga:
         'https://www.youtube.com/watch?v=dwhIZdqFyyI&ab_channel=CloudSeguro ',
