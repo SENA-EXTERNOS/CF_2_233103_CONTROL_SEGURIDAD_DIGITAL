@@ -73,25 +73,25 @@
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel1.svg' alt='AvatarTop')
         .tarjeta.tarjeta--amarilla-1.p-4
-          h2.text-center.mt-5 Crecimiento exponencial
+          h4.text-center.mt-5 Crecimiento exponencial
           p.text-center Citando nuevamente a Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020), “en España, por ejemplo, en solo un año, entre 2018 y 2019, los ciberdelitos denunciados representaron un 10% del total de denuncias por algún tipo de delito, y en este mismo periodo se tuvo un aumento del 35% de los casos reportados” (p.11).
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel2.svg' alt='AvatarTop')
         .tarjeta.tarjeta--amarilla-1.p-4
-          h2.text-center.mt-5 En Colombia
+          h4.text-center.mt-5 En Colombia
           p.text-center Según cifras del Centro Cibernético Policial MinTIC (2021), durante el año 2021 los delitos cibernéticos en Colombia ascendieron a 33.465, lo que significa un aumento de 17 % en comparación con 2020, cuando fueron 28.524 casos. Además, se recibieron 1.558 denuncias y se efectuaron 49 capturas”, revelaron las autoridades.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel3.svg' alt='AvatarTop')
         .tarjeta.tarjeta--amarilla-1.p-4
-          h2.text-center.mt-5 El precio de los fallos en ciberseguridad
+          h4.text-center.mt-5 El precio de los fallos en ciberseguridad
           p.text-center La revista portafolio (2022) [6] indica que, en el mundo durante el último año, los ciberdelitos crecieron en un 150% y aproximadamente el 32% de las empresas fueron atacadas, estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos, e inclusive gobiernos, así que dichos pagos representan cantidades de dinero considerables. Ámbito (2022)[7] indica que los ciberataques en el 2021 han costado más de 5,7 billones de euros.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel4.svg' alt='AvatarTop')
         .tarjeta.tarjeta--amarilla-1.p-4
-          h2.text-center.mt-5 Políticas públicas: según MinTIC (2021), el propósito de la política de seguridad digital
+          h4.text-center.mt-5 Políticas públicas: según MinTIC (2021), el propósito de la política de seguridad digital
           p.text-center El objetivo general de esta política es que los colombianos y las empresas conozcan e identifiquen los riesgos a los que están expuestos en el entorno digital y aprendan como protegerse, prevenir y reaccionar ante los delitos y ataques cibernéticos.
           p.text-center Esta labor a nivel institucional requiere un arduo trabajo e inversión conjuntas entre el estado y la empresa privada, labor que tiene un alto componente educativo, el cual exige adoptar una cultura de seguridad digital en el país. 
 
@@ -152,13 +152,15 @@
       #t_2_4.titulo-segundo.color-acento-contenido
         h2 2.4.	Metodología y estrategias.
        
-      .row.mt-1.justify-content-center
+      .row.justify-content-center.mt-5
         .tarjeta.color-primario--borde
-          .col-lg-5  
+          .col-lg-4 
             figure
-                img(src='@/assets/curso/temas/Tema2/elemento2.png' width='400px' height='171px')
-          
-          .col-lg-6.mt-5
+            img(src='@/assets/curso/temas/Tema2/elemento2.svg' width='400px' height='171px')
+        
+          .row.justify-content-center
+            row
+            .col-lg-11.mt-5
               p.text-small En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías encargadas de marcar la ruta a seguir, cómo garantía de la seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.  
 
 

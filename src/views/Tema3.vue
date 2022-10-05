@@ -8,27 +8,27 @@
       h1 Normativa: ISO 27001.
 
     .row.justify-content-around.align-items-center.mb-5.mt-2
-        .col-9
+        .col-8
           .row
-            .col-lg-2
+            .col-lg-3
               figure
                 img(src='@/assets/curso/temas/Tema3/tema3.svg', alt='Texto que describa la imagen'  ).imagen-decorativa-1
-            .col-lg-10
+            .col-lg-9.mt-4
                 p Continuando con el estudio de este recurso educativo, ahora pasamos a conocer detalles sobre la reglamentación de la norma ISO 27001.  
                 p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información proporcionada por el organismo de certificación mundial nqa.
 
     .row.mt-2.justify-content-center
-      .col-9
+      .col-10
         .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.carimg(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/imag1.png')})`}"
           )
           .bloque-texto-g__texto3.p-4
-            .col-10.col-lg-12
+            .col-11.col-lg-12
               p La ISO 27001:2013 es la norma internacional que proporciona un marco de trabajo para los sistemas de gestión de seguridad de la información (SGSI) con el fin de proporcionar confidencialidad, integridad y disponibilidad continuada de la información, así como el cumplimiento legal. La certificación ISO 27001 es esencial para proteger los activos más importantes en la organización, la información de los clientes y empleados, la imagen corporativa y otra información privada. La norma ISO incluye un enfoque basado en procesos para lanzar, implantar, operar y mantener un SGSI. 
               
 
-        row.justify-content-around.align-items-centerrd.mt-5
+        .row.justify-content-around.align-items-centerrd.mt-5
           .col-12
             .tarjeta.color-secundario.p-3.mt-4
               .row.justify-content-around.align-items-center
@@ -56,12 +56,11 @@
     p.mt-2 La norma ISO 27001 hace parte de la familia de normas ISO27000, algunas normas relevantes al tema en estudio son:
 
   
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      
+    SlyderF(columnas="col-lg-5 col-xl-4")
       .tarjeta
         .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/temas/Tema3/1.png' )                 
+          .col-13
+            img(src='@/assets/curso/temas/Tema3/1.png' )               
               
       .tarjeta
         .row.justify-content-center.mb-3
@@ -111,7 +110,7 @@
       h2 3.2.	Principios.
 
 
-    .row.justify-content-around.align-items-center.mb-5.mt-5
+    .row.justify-content-around.align-items-center
       .col-7
         .row
           .col-lg-2
@@ -122,9 +121,9 @@
               
 
 
-    h3.mt-5 Tarjetas flip
+    
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center.mt-5
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -185,11 +184,11 @@
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img1.svg', alt='Texto que describa la imagen' width='69px' height='70')             
         
-            .col-lg-10
+            .col-lg-9
              p La norma ha sido diseñada para ser aplicable en todas las empresas, independientemente del sector al que pertenezca y tamaño de la misma.    
     
          
@@ -198,44 +197,44 @@
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img2.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p La certificación incluye la aplicación de los parámetros de la familia de normas ISO 27000.    
    
       div(titulo="Cláusula 3- definición de conceptos clave ")
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img3.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p Se debe incluir la definición de palabras y elementos claves contenidos en la norma ISO 27000.    
    
       div(titulo="Cláusula 4 -contexto de la organización" width='69px' height='70')
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img4.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p Incluye el análisis del entorno organizacional, proceso y estudio de las vulnerabilidades, además de las necesidades de cada uno.    
    
       div(titulo="Cláusula 5 -liderazgo y definición de roles" )
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img5.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p Se establece la distribución de responsabilidades respecto al sistema de seguridad digital de la organización.    
    
 
@@ -243,11 +242,11 @@
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img6.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p Se plantea la proyección de riesgos, esta cláusula se ampliará en una próxima sección 3.5.   
    
 
@@ -255,11 +254,11 @@
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img7.svg' width='69px' height='70') 
 
-            .col-lg-10
+            .col-lg-9
              p Se definen los recursos técnicos, humanos y económicos destinados a la implementación y ejecución del sistema de seguridad digital.     
    
 
@@ -267,7 +266,7 @@
         .row.justify-content-around.align-items-center
         .col-9
           .row
-            .col-lg-2
+            .col-lg-3
               figure
               img(src='@/assets/curso/temas/Tema3/img8.svg' width='69px' height='70') 
 
@@ -328,30 +327,30 @@
             .row.justify-content-around.align-items-center              
               .col-lg-2
                 figure
-                img(src='@/assets/curso/temas/Tema3/aco1.png' width='133px' height='129px')             
+                img(src='@/assets/curso/temas/Tema3/aco1.svg' width='133px' height='129px')             
             
               .col-lg-6
                 p La norma ha sido diseñada para ser aplicable en todas las empresas, independientemente del sector al que pertenezca y tamaño de la misma.    
         
             
           
-          div(titulo="Cláusula 2 - base normativa:")
+          div(titulo="Auditoría externa")
             .row.justify-content-around.align-items-center
               
               .col-lg-2
                 figure
-                img(src='@/assets/curso/temas/Tema3/aco2.png' width='115px' height='126px') 
+                img(src='@/assets/curso/temas/Tema3/aco2.svg' width='115px' height='126px') 
             
               .col-lg-6
                 p Se contrata o solicita la revisión de uno o varios auditores externos e independientes a la empresa, para dar su concepto técnico y hallar fallos.   
             
 
-          div(titulo="Auditoría interna:")
+          div(titulo="Auditoría de certificación")
             .row.justify-content-around.align-items-center
               
               .col-lg-2
                 figure
-                img(src='@/assets/curso/temas/Tema3/aco3.png' width='129px' height='126px') 
+                img(src='@/assets/curso/temas/Tema3/aco3.svg' width='129px' height='126px') 
 
               .col-lg-6
                 p La realiza un organismo acreditado para certificar la implementación de la norma donde se evaluará el cumplimiento de esta, en dicha auditoría todo debe estar funcionando según los parámetros, ya que no hay oportunidades de corrección.   

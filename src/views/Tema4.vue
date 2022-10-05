@@ -182,7 +182,7 @@
           .row
             .col-lg-1
               figure
-                img(src='@/assets/curso/temas/Tema4/img1.png' )  
+                img(src='@/assets/curso/temas/Tema4/img1.svg' width='52' height='52' )  
             .col-lg-11
               p Por favor, explore los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
 

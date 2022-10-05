@@ -12,11 +12,12 @@
       .col-lg-8.col-sm-16
         .bloque-texto-b.color-cajon.boxtema1.p-1
           .bloque-texto-b__texto
-            p.mb-2 Para iniciar con el contenido, es necesario conocer algunas definiciones oficiales básicas para comprender la temática que se abordará. Según la guía “Metodología para la Identificación, Clasificación y Valoración de Activos de Información” de la Súper Intendencia de Comercio SIC (2018) en su sección de glosario define al término activo como “cualquier cosa que tiene valor para una organización” (p.2) y se determina el activo de información como:
-                   
+            p Para iniciar con el contenido, es necesario conocer algunas definiciones oficiales básicas para comprender la temática que se abordará. Según la guía “Metodología para la Identificación, Clasificación y Valoración de Activos de Información” de la Súper Intendencia de Comercio SIC (2018) en su sección de glosario define al término activo como “cualquier cosa que tiene valor para una organización” (p.2) y se determina el activo de información como:
+      
+     
       .col-lg-2
         figure
-        img(src='@/assets/curso/temas/Tema1/imag1.svg', alt='Texto que describa la imagen').imagen-decorativa-1
+          img(src='@/assets/curso/temas/Tema1/imag1.svg' width='90' height='95').imagen-decorativa-1
 
 
       p.mt-4 El elemento de información que se recibe o produce en el ejercicio de sus funciones. Incluye la información que se encuentre en forma impresa, escrita, en papel, transmitida por cualquier medio electrónico o almacenado en equipos de cómputo, incluyendo software, hardware, recurso humano, datos contenidos en registros, archivos, bases de datos, videos e imágenes (p.2).
@@ -72,14 +73,14 @@
 
 
 
-    .tarjeta.bgr-slider.p-4.mt-4
-      SlyderA(tipo="b")
+    
+      SlyderA(tipo="b").bg1
         .row.justify-content-around.align-items-center
           .col-md-4.mb-4.mb-md-0
             b.mt-4 Archivo                                
             p.mt-5 Es el conjunto de elementos, normas y procedimientos encargados de conservar, proteger y clasificar la información generada en los procesos de la compañía, en informática también se conoce como archivo a cada uno de los documentos digitales dotados de un nombre y una ubicación específica en la computadora o elemento de almacenamiento.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider1.png', alt='Texto que describa la imagen')
               
@@ -88,7 +89,7 @@
             b.mt-4 Conocimiento corporativo                                
             p.mt-5 Como indica Pérez Montoro, M. (2009), “es aquel conocimiento que se le puede atribuir a una organización, el que posee esa organización. Este conocimiento acostumbra a estar representado materialmente, en algún tipo de documento. Las bases de datos adquiridas por una organización o la propiedad intelectual y las patentes que ésta desarrolla, son dos claros ejemplos de este tipo de conocimiento.”
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider2.png', alt='Texto que describa la imagen')
 
@@ -98,7 +99,7 @@
             b.mt-1 Custodio                                
             p.mt-5 Persona o parte que, dentro de sus funciones en la compañía, tiene la responsabilidad de administrar el uso y acceso a un determinado conjunto de información y garantizar su integridad.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider3.png', alt='Texto que describa la imagen')
 
@@ -107,7 +108,7 @@
               b Integridad                                 
               p.mt-5 Cualidad de la información, de estar completa y ser exacta.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider4.png', alt='Texto que describa la imagen')
 
@@ -117,7 +118,7 @@
             b Disponibilidad                                 
             p.mt-5 Característica de la información de estar accesible y utilizable según sea requerida.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider5.png', alt='Texto que describa la imagen')
 
@@ -127,7 +128,7 @@
             b.mt-4 Proceso organizacional                               
             p.mt-5 Hace referencia a una dependencia o a un grupo dentro de la organización con funciones, actividades específicas y uno o más objetivos marcados.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider6.png', alt='Texto que describa la imagen')
 
@@ -138,7 +139,7 @@
             b.mt-4 Tecnología                              
             p.mt-5 Agrupa el conocimiento, instrumentos o herramientas y técnicas para realizar una labor.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider7.png', alt='Texto que describa la imagen')
 
@@ -148,7 +149,7 @@
             b.mt-4 Propietario del activo de información                              
             p.mt-5 Es la persona, grupo de personas, dependencia u organización a quien se reconoce como autor y/o responsable de la seguridad y cuidado de una información en específico.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider8.png', alt='Texto que describa la imagen')
 
@@ -158,7 +159,7 @@
             b.mt-4 Recurso Humano                             
             p.mt-5 Recurso comprendido por el capital humano, sus conocimientos y habilidades para desarrollar una labor.
        
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/imagslider9.png', alt='Texto que describa la imagen')
 
