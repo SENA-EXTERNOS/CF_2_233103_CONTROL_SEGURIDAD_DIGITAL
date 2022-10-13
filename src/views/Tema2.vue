@@ -10,9 +10,7 @@
     .row.mt-5.justify-content-center
       .col-10
         .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.carimg(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/imagentema1.svg')})`}"
-          )
+          
           .bloque-texto-g__texto2.p-4
             .col-10.col-lg-12
               p Para avanzar con el desarrollo del tema, es necesario tener claro el concepto de ciberseguridad, que se abordará con mayor profundidad en un contenido formativo posterior, dedicado exclusivamente a este tema, en este apartado se hace una primera aproximación.
@@ -154,10 +152,7 @@
        
       .row.justify-content-center.mt-5
         .tarjeta.color-primario--borde
-          .col-lg-4 
-            figure
-            img(src='@/assets/curso/temas/Tema2/elemento2.svg' width='400px' height='171px')
-        
+          
           .row.justify-content-center
             row
             .col-lg-11.mt-5
