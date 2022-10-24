@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Manual de ciberseguridad corporativa.
+      h1 Manual de ciberseguridad corporativa
 
     .col-lg-12.col-sm-5
       figure
@@ -38,7 +38,7 @@
     #t_4_1
 
     .titulo-segundo.color-acento-contenido
-      h2 4.1.	Objetivos y alcance. 
+      h2 4.1	Objetivos y alcance
 
     p Se deben plantear los objetivos específicos teniendo como referente el alcance del manual, este debe ser documentando de la siguiente forma: 
       
@@ -73,7 +73,7 @@
     #t_4_2
 
     .titulo-segundo.color-acento-contenido
-      h2 4.2.	Estructura organizacional. 
+      h2 4.2	Estructura organizacional 
 
     p La estructura organizacional que también se contempla en el manual tiene los siguientes elementos:
 
@@ -117,7 +117,7 @@
     #t_4_3
 
     .titulo-segundo.color-acento-contenido
-      h2 4.3.	Lineamientos y políticas corporativas.  
+      h2 4.3	Lineamientos y políticas corporativas
 
     .row.justify-content-around.align-items-center.mb-5.mt-5
         .col-9

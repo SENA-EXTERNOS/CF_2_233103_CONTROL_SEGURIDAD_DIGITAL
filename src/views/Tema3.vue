@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Normativa: ISO 27001.
+      h1 Normativa: ISO 27001
 
     .row.justify-content-around.align-items-center.mb-5.mt-2
         .col-8
@@ -15,7 +15,8 @@
                 img(src='@/assets/curso/temas/Tema3/tema3.svg', alt='Texto que describa la imagen'  ).imagen-decorativa-1
             .col-lg-9.mt-4
                 p Continuando con el estudio de este recurso educativo, ahora pasamos a conocer detalles sobre la reglamentación de la norma ISO 27001.  
-                p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información proporcionada por el organismo de certificación mundial nqa.
+                p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información 
+                  b proporcionada por el organismo de certificación mundial nqa.
 
     .row.mt-2.justify-content-center
       .col-10
@@ -50,7 +51,7 @@
     #t_3_1
 
     .titulo-segundo.color-acento-contenido
-      h2 3.1.	Conceptos generales.
+      h2 3.1	Conceptos generales
 
 
     p.mt-2 La norma ISO 27001 hace parte de la familia de normas ISO27000, algunas normas relevantes al tema en estudio son:
@@ -107,7 +108,7 @@
     #t_3_2
 
     .titulo-segundo.color-acento-contenido
-      h2 3.2.	Principios.
+      h2 3.2	Principios
 
 
     .row.justify-content-around.align-items-center
@@ -131,7 +132,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/flip1.png')})`}")
               .tarjeta-flip__contenido.p-3.p-xl-5
                 
-                p Proteger los activos de la empresa, lo que incluye personas, información, capital y equipos.
+                p.text-center Proteger los activos de la empresa, lo que incluye personas, información, capital y equipos.
 
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
           .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
@@ -139,7 +140,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/flip2.png')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5
                 
-                p Identificar y corregir las vulnerabilidades a la seguridad de los activos.
+                p.text-center Identificar y corregir las vulnerabilidades a la seguridad de los activos.
 
         .col-sm-6.col-xl-3.mb-4.mb-sm-0
           .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
@@ -147,7 +148,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/flip3.png')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5
                 
-                p Diseñar e Implementar los manuales de procedimientos para la gestión de los activos de manera segura
+                p.text-center Diseñar e Implementar los manuales de procedimientos para la gestión de los activos de manera segura.
 
     .row.mb-5.justify-content-center         
         .col-sm-6.col-xl-3
@@ -156,7 +157,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/flip4.png')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5
                 
-                p Establecer los procedimientos y el manejo de contingencias y emergencias asociadas a la seguridad digital.
+                p.text-center  Establecer los procedimientos y el manejo de contingencias y emergencias asociadas a la seguridad digital.
 
 
         .col-sm-6.col-xl-3
@@ -165,7 +166,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/flip5.png')})`}")
               .tarjeta-flip__contenido.p-4.p-xl-5
                 
-                p Proteger la confidencialidad, integridad y disponibilidad de la información.
+                p.text-center Proteger la confidencialidad, integridad y disponibilidad de la información.
 
         
 
@@ -174,7 +175,7 @@
     #t_3_3
 
     .titulo-segundo.color-acento-contenido
-      h2 3.3.	Políticas
+      h2 3.3	Políticas
 
     p.mt-2 La norma se ejecuta mediante 10 etapas o cláusulas, a continuación, se realiza una breve descripción de cada una:
 
@@ -283,7 +284,7 @@
               img(src='@/assets/curso/temas/Tema3/img9.svg' width='69px' height='70') 
 
             .col-lg-9
-             p Se realiza la valoración de los resultados del sistema, esta cláusula de ampliará en la próxima sección 3.
+             p Se realiza la valoración de los resultados del sistema, esta cláusula de ampliará en la próxima sección 3.6.
 
 
       div(titulo="Cláusula 10 -mejora")
@@ -303,7 +304,7 @@
     #t_3_4
 
     .titulo-segundo.color-acento-contenido
-      h2 3.4.	Técnicas y procedimientos de la norma.  
+      h2 3.4	Técnicas y procedimientos de la norma 
 
     .row
       .col-lg-11.col-sm-10
@@ -311,10 +312,39 @@
         .bloque-texto-b__texto.cajdelgada
           p Para la implementación de la norma hay dos aspectos importantes a tratar: la metodología de planeación, ejecución y evaluación, además de las auditorías al sistema. En el siguiente gráfico se describe el método PHVA, una de las metodologías más usadas.
     
-    .row.justify-content-center.mb-3.mt-4
-      .col-lg-4.col-sm-10   
-        figure
-          img(src='@/assets/curso/temas/Tema3/imgcolores.svg').mt-5         
+       
+    .row.justify-content-center.mb-3.mt-5 
+      .col-lg-5.col-sm-10  
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+          
+            figure
+              img(src='@/assets/curso/temas/Tema3/imgcolores.svg', alt='Texto que describa la imagen')
+            
+
+          .tarjeta.color-secundario.p-3(x="51%" y="6.5%" numero="A")
+            p #[b Planear:]
+              |  analizar y establecer los objetivos, recursos y procedimientos para la implementación.
+
+          .tarjeta.color-acento-botones.p-3(x="85%" y="41%" numero="B")
+            p #[b Hacer:] 
+              | ejecutar las acciones formuladas en la planeación.
+          
+
+          .tarjeta.color-oliva.p-3(x="48%" y="94%" numero="C")
+            p #[b Verificar:] 
+              | evaluar los resultados y funcionamiento del sistema e identificar vulnerabilidades.
+
+
+          .tarjeta.color-primario.p-3(x="15%" y="40%" numero="D")
+            p #[b Actuar:] 
+              | establecer acciones de mejora y actualización.
+
+          .tarjeta.color-white.p-3(x="50%" y="40%" numero="E")
+            p #[b Ciclo PHVA:] 
+              | se implementa a través del método PHVA, (planear, hacer, verificar, actuar), como está registrado en el orden lógico de las 10 cláusulas.
+
+
       
     .row.justify-content-center
       .col-lg-8  
@@ -330,8 +360,7 @@
                 img(src='@/assets/curso/temas/Tema3/aco1.svg' width='133px' height='129px')             
             
               .col-lg-6
-                p La norma ha sido diseñada para ser aplicable en todas las empresas, independientemente del sector al que pertenezca y tamaño de la misma.    
-        
+                p Es realizada por el personal interno de la empresa, su objetivo es identificar fallos en una primera estancia y preparar las auditorías externas para certificar la norma.
             
           
           div(titulo="Auditoría externa")
@@ -360,7 +389,7 @@
     #t_3_5
 
     .titulo-segundo.color-acento-contenido
-      h2 3.5.	Gestión de riesgos  
+      h2 3.5	Gestión de riesgos  
 
     P.mt-2 A continuación, se amplía la explicación de la ya mencionada cláusula planeación y evaluación de riesgos: 
 
@@ -406,10 +435,10 @@
 
     separador
     
-    #t_3_
+    #t_3_6
 
     .titulo-segundo.color-acento-contenido
-      h2 3.6.	Evaluación y administración
+      h2 3.6	Evaluación y administración
 
     P La evaluación del sistema es el único método para validar que tan efectivo es. 
  

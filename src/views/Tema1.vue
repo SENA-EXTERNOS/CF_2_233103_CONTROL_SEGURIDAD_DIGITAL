@@ -13,14 +13,14 @@
         .bloque-texto-b.color-cajon.boxtema1.p-1
           .bloque-texto-b__texto
             p Para iniciar con el contenido, es necesario conocer algunas definiciones oficiales básicas para comprender la temática que se abordará. Según la guía “Metodología para la Identificación, Clasificación y Valoración de Activos de Información” de la Súper Intendencia de Comercio SIC (2018) en su sección de glosario define al término activo como “cualquier cosa que tiene valor para una organización” (p.2) y se determina el activo de información como:
-      
-     
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/Tema1/imag1.svg' width='90' height='95').imagen-decorativa-1
+        img(src='@/assets/curso/temas/Tema1/imag1.svg' width='90' height='95').imagen-decorativa-7
 
 
-      p.mt-4 El elemento de información que se recibe o produce en el ejercicio de sus funciones. Incluye la información que se encuentre en forma impresa, escrita, en papel, transmitida por cualquier medio electrónico o almacenado en equipos de cómputo, incluyendo software, hardware, recurso humano, datos contenidos en registros, archivos, bases de datos, videos e imágenes (p.2).
+      p.mt-4 El elemento de información que se recibe o produce en el ejercicio de sus funciones. Incluye la información que se encuentre en forma impresa, escrita, en papel, transmitida por cualquier medio electrónico o almacenado en equipos de cómputo, incluyendo 
+        i software, hardware, 
+        | recurso humano, datos contenidos en registros, archivos, bases de datos, videos e imágenes (p.2).
 
 
       .row.justify-content-center.mt-3
@@ -56,7 +56,7 @@
     #t_1_1
 
     .titulo-segundo.color-acento-contenido
-      h2 1.1  Normativa
+      h2 1.1  Conceptualización de activos tecnológicos 
 
     
     .row.justify-content-around.align-items-center
@@ -169,7 +169,7 @@
     #t_1_2
 
     .titulo-segundo.color-acento-contenido.mt-3
-      h2 1.2.	Caracterización y clasificación de activos tecnológicos.
+      h2 1.2	Caracterización y clasificación de activos tecnológicos
     
     p.mt-2 Dentro de los activos de la información destacan aquellos elementos tecnológicos que hacen parte del proceso.
 
@@ -180,11 +180,11 @@
       .tarjeta.color-tarjetacliente.p-4(titulo="Información")      
         .row           
           .col-xl-10
-            h4 Información
+            
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Bases de datos: conglomerados de información de los diferentes procesos de la organización.
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Backups: copias de seguridad y respaldo de información valiosa que, por motivos de la organización debe ser preservada y estar disponible para ser recuperada en caso de pérdida o daño. 
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Credenciales de acceso: contraseñas, información biométrica, tokens y llaves digitales para acceder a instancias especiales del sistema de información.
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Aplicaciones y Software de uso corporativo: programas necesarios para ejecutar los procesos de la empresa.
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> #[i Backups:]  copias de seguridad y respaldo de información valiosa que, por motivos de la organización debe ser preservada y estar disponible para ser recuperada en caso de pérdida o daño. 
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> Credenciales de acceso: contraseñas, información biométrica, #[i tokens]  y llaves digitales para acceder a instancias especiales del sistema de información.
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> Aplicaciones y #[i Software] de uso corporativo: programas necesarios para ejecutar los procesos de la empresa.
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Documentos almacenados en archivo físico.
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Conocimiento de la operación: conocimiento de los procesos generado por los trabajadores.
             
@@ -193,9 +193,9 @@
       
         .row                     
           .col-xl-10
-            h4 Activos físicos
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Equipos electrónicos: son computadoras y otros equipos terminales como tablets, teléfonos, entre otros.
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Infraestructura de red: equipos como routers, firewalls, cableado, canalización, puntos de acceso, servidores y racks.
+            
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> Equipos electrónicos: son computadoras y otros equipos terminales como #[i tablets,] teléfonos, entre otros.
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> Infraestructura de red: equipos como #[i routers, firewalls,] cableado, canalización, puntos de acceso, servidores y #[i racks.]
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Equipos de almacenamiento digital: discos duros y memorias.
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Recurso Humano: personal, directivo, operativo, técnico administrativo que usa, guarda y genera conocimiento en la organización.
          
@@ -204,7 +204,7 @@
     #t_1_3
 
     .titulo-segundo.color-acento-contenido
-      h2 1.3.	Gestión de activos tecnológicos: manejo, preservación y evaluación.     
+      h2 1.3	Gestión de activos tecnológicos: manejo, preservación y evaluación   
 
     p.mt-2 Para realizar una gestión correcta de los activos tecnológicos se debe tener claridad sobre las características de cada uno de los elementos que integran el proceso de gestión. 
         

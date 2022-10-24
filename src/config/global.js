@@ -49,21 +49,21 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Normativa',
+            titulo: 'Conceptualización de activos tecnológicos ',
             hash: 't_1_1',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Caracterización y clasificación de activos tecnológicos.',
+            titulo: 'Caracterización y clasificación de activos tecnológicos',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
-              'Gestión de activos tecnológicos: manejo, preservación y evaluación.',
+              'Gestión de activos tecnológicos: manejo, preservación y evaluación',
             hash: 't_1_3',
           },
         ],
@@ -73,41 +73,41 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Fundamentos de Ciberseguridad.',
+        titulo: 'Fundamentos de Ciberseguridad',
         desarrolloContenidos: true,
 
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Definición de conceptos esenciales.',
+            titulo: 'Definición de conceptos esenciales',
             hash: 't_2_1',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Contextualización y estado del arte.',
+            titulo: 'Contextualización y estado del arte',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Objetivos de la ciberseguridad.',
+            titulo: 'Objetivos de la ciberseguridad',
             hash: 't_2_3',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Metodología y estrategias.',
+            titulo: 'Metodología y estrategias',
             hash: 't_2_4',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Técnicas de diagnóstico.',
+            titulo: 'Técnicas de diagnóstico',
             hash: 't_2_5',
           },
         ],
@@ -116,48 +116,48 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Normativa: ISO 27001.',
+        titulo: 'Normativa: ISO 27001',
         desarrolloContenidos: true,
 
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Conceptos generales.',
+            titulo: 'Conceptos generales',
             hash: 't_3_1',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Principios.',
+            titulo: 'Principios',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Políticas.',
+            titulo: 'Políticas',
             hash: 't_3_3',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Técnicas y procedimientos de la norma.',
+            titulo: 'Técnicas y procedimientos de la norma',
             hash: 't_3_4',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Gestión de riesgos.',
+            titulo: 'Gestión de riesgos',
             hash: 't_3_5',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: 'Evaluación y administración.',
+            titulo: 'Evaluación y administración',
             hash: 't_3_6',
           },
         ],
@@ -167,27 +167,27 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Manual de ciberseguridad corporativa.',
+        titulo: 'Manual de ciberseguridad corporativa',
         desarrolloContenidos: true,
 
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Objetivos y alcance.',
+            titulo: 'Objetivos y alcance',
             hash: 't_4_1',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Estructura organizacional.',
+            titulo: 'Estructura organizacional',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Lineamientos y políticas corporativas.',
+            titulo: 'Lineamientos y políticas corporativas',
             hash: 't_4_3',
           },
         ],
@@ -269,7 +269,7 @@ export default {
     {
       termino: 'Licencia',
       significado:
-        'en informática, se refiere a las licencias como el acuerdo legal o contrato entre el desarrollador/proveedor del software y el usuario quien, mediante algún tipo de reconocimiento, puede usar dicho programa de manera legal y con derecho al soporte y acceso a las herramientas contratadas. ',
+        'en informática, se refiere a las licencias como el acuerdo legal o contrato entre el desarrollador/proveedor del <em>software</em> y el usuario quien, mediante algún tipo de reconocimiento, puede usar dicho programa de manera legal y con derecho al soporte y acceso a las herramientas contratadas. ',
     },
     {
       termino: 'Norma',
@@ -314,6 +314,12 @@ export default {
         'Delitos informáticos en Colombia subieron un 17 % en el 2021: sepa cómo prevenirlos. (2021). Infobae.',
       link:
         'https://www.infobae.com/america/colombia/2021/12/27/delitos-informaticos-en-colombia-subieron-un-17-en-el-2021-sepa-como-prevenirlos/#:~:text=%E2%80%9CSeg%C3%BAn%20cifras%20del%20Centro%20Cibern%C3%A9tico,capturas%E2%80%9D%2C%20revelaron%20las%20autoridades.',
+    },
+    {
+      referencia:
+        'Giant, N. (2016). Ciber seguridad para la i-generación: usos y riesgos de las redes sociales y sus aplicaciones. Narcea Ediciones. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/46247?page=17  ',
     },
     {
       referencia:
