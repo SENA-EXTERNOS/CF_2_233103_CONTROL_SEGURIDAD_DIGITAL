@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Fundamentos y normativa para la ciberseguridad.',
+    componenteFormativo: 'Fundamentos y normativa para la ciberseguridad',
     descripcionCurso:
       'En este contenido temático se definen los conceptos, la normativa y procedimientos básicos de la ciberseguridad en entornos corporativos, necesarios para garantizar el funcionamiento seguro de los procesos de la compañía, previniendo ataques cibernéticos a la información y/o datos vulnerables. Se realiza mediante buenas prácticas y procedimientos adecuados a las normas.  ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
