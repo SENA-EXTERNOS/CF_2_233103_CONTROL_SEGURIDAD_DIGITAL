@@ -41,7 +41,7 @@
                       h3.mb-1 Guía de implantación nqa
                       p.text-small Para ampliar la información anterior sobre la implantación de la ISO 27001, ver el documento.
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_NQA-ISO-27001-Guia-de-implantacion.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
 
