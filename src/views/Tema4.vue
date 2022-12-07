@@ -93,7 +93,7 @@
                   figure
                   img(src='@/assets/curso/temas/Tema4/img5.svg' width='105px' height='104px')    
                 .col-lg-9
-                  p Toda empresa está compuesta por un grupo de colaboradores con un cargo y responsabilidades predefinidas, conocer cómo es la organización de esta facilita la canalización de la información para que llegue a quienes son competentes en el tema, y para evitar que se comparta o se generen confusiones al llegar a quienes no resulta relevante dicha información.
+                  p Toda empresa está compuesta por un grupo de colaboradores con un cargo y responsabilidades predefinidas, conocer cómo es la organización de esta, facilita la canalización de la información para que llegue a quienes son competentes en el tema, y para evitar que se comparta o se generen confusiones al llegar a quienes no resulta relevante dicha información.
                
               .row(titulo="Conducto regular y canales de comunicación")
                 row

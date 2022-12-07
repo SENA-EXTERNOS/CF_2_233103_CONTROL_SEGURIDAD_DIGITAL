@@ -15,9 +15,8 @@
                 img(src='@/assets/curso/temas/Tema3/tema3.svg', alt='Texto que describa la imagen'  ).imagen-decorativa-1
             .col-lg-9.mt-4
                 p Continuando con el estudio de este recurso educativo, ahora pasamos a conocer detalles sobre la reglamentación de la norma ISO 27001.  
-                p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información 
-                  b proporcionada por el organismo de certificación mundial nqa.
-
+                p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información proporcionada por el 
+                  b Organismo de Certificación Global  NQA.
     .row.mt-2.justify-content-center
       .col-10
         .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
@@ -38,7 +37,7 @@
                 .col-9
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Guía de implantación nqa
+                      h3.mb-1 Guía de implantación NQA
                       p.text-small Para ampliar la información anterior sobre la implantación de la ISO 27001, ver el documento.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_NQA-ISO-27001-Guia-de-implantacion.pdf')" target="_blank")
@@ -402,7 +401,7 @@
             img(src="@/assets/curso/temas/Tema3/3.5.1.png"  )
           .crd_hover_txt--body
             
-            p.mb-0 Para el SGSI (Sistema de Gestión de Seguridad de la Información) es vital en su etapa de planeación identificar los riesgos.
+            p.mb-0.text-small Para el SGSI (Sistema de Gestión de Seguridad de la Información) es vital en su etapa de planeación identificar los riesgos.
 
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -411,7 +410,7 @@
                 img(src="@/assets/curso/temas/Tema3/3.5.2.png")
           .crd_hover_txt--body
             
-            p.mb-0 Siempre existirán riesgos, lo que se puede controlar es la probabilidad de que ocurra un incidente.
+            p.mb-0.text-small Siempre existirán riesgos, lo que se puede controlar es la probabilidad de que ocurra un incidente.
 
      
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -421,7 +420,7 @@
               img(src="@/assets/curso/temas/Tema3/3.5.3.png"  )
           .crd_hover_txt--body
             
-            p.mb-0 Es posible que existan riesgos que para el contexto y recursos de la organización no se puedan solucionar aún.
+            p.mb-0.text-small Es posible que existan riesgos que para el contexto y recursos de la organización no se puedan solucionar aún.
 
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -429,7 +428,7 @@
             figure
               img(src="@/assets/curso/temas/Tema3/3.5.4.png")
           .crd_hover_txt--body
-            p.mb-0 Se deben caracterizar o clasificar los riesgos según el tipo de activo que pueden afectar e identificar las posibles soluciones o métodos para reducir su probabilidad o impacto.
+            p.mb-0.text-small Se deben caracterizar o clasificar los riesgos según el tipo de activo que pueden afectar e identificar las posibles soluciones o métodos para reducir su probabilidad o impacto.
 
 
 

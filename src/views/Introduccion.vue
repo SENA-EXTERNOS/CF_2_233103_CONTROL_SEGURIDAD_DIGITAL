@@ -24,12 +24,12 @@
 
             p.mt-4 Para iniciar, ver el siguiente video en él se realiza una presentación general de la temática que se estudiará a lo largo del componente formativo. ¡Éxitos! En este proceso de aprendizaje.
 
-      .col-lg-6.mt-3
-      figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption   VIDEO
-    
+      .col-lg-11.mt-3
+        figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption   VIDEO
+      
          
 
 

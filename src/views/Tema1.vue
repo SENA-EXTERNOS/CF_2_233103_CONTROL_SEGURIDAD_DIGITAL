@@ -36,8 +36,8 @@
 
       p Se puede validar la última definición en el siguiente mapa conceptual:
 
-      .row.justify-content-center.mt-3
-      .col-lg-10.sm-8
+    .row.justify-content-center.mt-3
+      .col-lg-7.sm-8
         .titulo-sexto.color-primario
           b  Figura 1.
           br

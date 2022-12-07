@@ -57,7 +57,7 @@
           .col-md-4.mb-4.mb-md-0
             b  Otra valiosa definición es la que brinda Giant, N. (2016), quien indica que:                                
             p.mt-4.text-small La ciberseguridad agrupa recursos de 
-              b hardware y software 
+              b #[i hardware y software ]  
               | junto con políticas, normas y comportamientos seguros, los cuales tienen aplicabilidad para el uso personal, corporativo e industrial; siempre y cuando el personal cuente con formación sobre los cuidados que debe tener para proteger la información. 
        
           .col-md-6.mt-5 
@@ -125,31 +125,29 @@
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/Tema2/elemento.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema2/elemento.svg', alt='Texto que describa la imagen')
               
           .tarjeta.color-acento-botones.p-3(x="10%" y="2%" numero="1")
-            h5 Protección.           
-              p Es el objetivo más evidente de las políticas de seguridad digital, el centro de todo debe ser la protección de los activos de información de las empresas, ya que ellos son la fuente principal del movimiento operativo y económico de las organizaciones.
+            h5.text-white Sensibilización y educación.         
+            p.text-white Como se ha mencionado, la cultura digital de las personas tiene alto impacto en el desempeño de un sistema de seguridad digital, por eso es fundamental que la ciberseguridad se enseñe desde temprana edad en los colegios y sea tema de constante capacitación para profesionales y empresas.
 
-          .tarjeta.color-acento-botones.p-3(x="90%" y="40%" numero="2")
-            h5 Empleo.
-           
-            p Es un área del conocimiento que actualmente tiene una demanda alta de profesionales y provee mejores salarios, con respecto a otros cargos del entorno de las TIC.
+          .tarjeta.color-acento-botones.p-3(x="9%" y="40%" numero="2")
+            h5.text-white Empleo.           
+            p.text-white Es un área del conocimiento que actualmente tiene una demanda alta de profesionales y provee mejores salarios, con respecto a otros cargos del entorno de las TIC.
+          
+          .tarjeta.color-acento-botones.p-3(x="9%" y="70%" numero="3")
+            h5.text-white Desarrollo tecnológico.
+            
+            p.text-white La ciberseguridad requiere que se invierta en investigación y desarrollo de tecnologías capaces de actuar y proteger de las amenazas modernas, que evolucionan también a un ritmo acelerado.
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="40%" numero="3")
-            h5 Desarrollo tecnológico.
+          .tarjeta.color-acento-botones.p-3(x="80%" y="40%" numero="4")
+            .h5.mb-2.text-white Protección.
             
-            p La ciberseguridad requiere que se invierta en investigación y desarrollo de tecnologías capaces de actuar y proteger de las amenazas modernas, que evolucionan también a un ritmo acelerado.
-
-          .tarjeta.color-acento-botones.p-3(x="10%" y="70%" numero="4")
-            .h5.mb-2 Sensibilización y educación.
+            p.text-white Es el objetivo más evidente de las políticas de seguridad digital, el centro de todo debe ser la protección de los activos de información de las empresas, ya que ellos son la fuente principal del movimiento operativo y económico de las organizaciones.
+          .tarjeta.color-acento-botones.p-3(x="80%" y="70%" numero="5")         
+            .h5.mb-2.text-white Economía.
             
-            p Como se ha mencionado, la cultura digital de las personas tiene alto impacto en el desempeño de un sistema de seguridad digital, por eso es fundamental que la ciberseguridad se enseñe desde temprana edad en los colegios y sea tema de constante capacitación para profesionales y empresas.
-      
-          .tarjeta.color-acento-botones.p-3(x="90%" y="70%" numero="5")         
-            .h5.mb-2 Economía.
-            
-            p Como se ha detallado anteriormente, en la medida que el sistema de la organización esté blindado de ataques, podrá garantizar una mayor seguridad a los usuarios, asegurando menos riesgos y reprocesos, lo que se verá reflejado en mayor eficiencia y menor probabilidad de tener que pagar los mencionados rescates a delincuentes informáticos.
+            p.text-white Como se ha detallado anteriormente, en la medida que el sistema de la organización esté blindado de ataques, podrá garantizar una mayor seguridad a los usuarios, asegurando menos riesgos y reprocesos, lo que se verá reflejado en mayor eficiencia y menor probabilidad de tener que pagar los mencionados rescates a delincuentes informáticos.
       
       separador
 
@@ -223,12 +221,13 @@
             p ¿Qué probabilidad y de qué forma podría un tercero acceder de manera inalámbrica o mediante cable a alguna de las redes o equipos de la compañía, y estando allí, qué información podría estar a su alcance? 
             p.mt-2 Verifique la seguridad de las contraseñas y el listado de equipos conectados a los medios inalámbricos, identifique que puertos podrían estar potencialmente disponibles para la conexión de un tercero en los equipos de red y el control de acceso al cuarto de telecomunicaciones.
 
-        .tarjeta.color-tarjetacliente.p-4(titulo="Software")
+        .tarjeta.color-tarjetacliente.p-4(titulo="<em>Software</em>")
         
           .row                     
             .col-xl-10
             p ¿El 
-              i software que tiene la compañía, cuenta con las licencias correspondientes o se usa de manera ‘pirata’? ¿los equipos de la empresa tienen instalados solo los programas permitidos y en sus versiones autorizadas? o ¿existe algún equipo con 
+              i software 
+              | que tiene la compañía, cuenta con las licencias correspondientes o se usa de manera ‘pirata’? ¿los equipos de la empresa tienen instalados solo los programas permitidos y en sus versiones autorizadas? o ¿existe algún equipo con 
               i software 
               | de terceros instalado sin autorización?
               p.mt-2 Compruebe el listado de programas instalados y la lista de procesos en ejecución de cada equipo.
