@@ -11,12 +11,12 @@
       figure
       img(src='@/assets/curso/temas/Tema4/imag1.svg').mt-5
 
-    .row.justify-content-around.align-items-center
-      .col-lg-.col-sm-10.mt-5
-        .bloque-texto-b.color-cajon
+    .row.justify-content-around.align-items-center.mb-5
+      .col-sm-10.mt-5
+        .bloque-texto-b.color-cajon.mb-4
           .bloque-texto-b__texto
-            p Un manual de procedimientos, es un documento escrito donde se reglamenta y se especifica la manera aprobada por la empresa para realizar determinada labor, cómo deben realizarse los procedimientos y la información de manera organizada y continua dentro de la empresa, todo empleado deberá aplicarlos en su labor diaria para evitar sanciones, y evitar alterar la calidad, seguridad y funcionamiento del sistema completo de la compañía.
-    
+            p Un manual de procedimientos es un documento escrito donde se reglamenta y se especifica la manera aprobada por la empresa para realizar determinada labor, cómo deben realizarse los procedimientos y la información de manera organizada y continua dentro de la empresa. 
+        p Todo empleado deberá aplicarlos en su labor diaria para evitar sanciones y evitar alterar la calidad, seguridad y funcionamiento del sistema completo de la compañía.
     
         row.justify-content-around.align-items-centerrd.mt-5
             .col-12
@@ -34,16 +34,9 @@
                           span Descargar
                           i.fas.fa-file-download
 
-      separador
-    #t_4_1
-
-    .titulo-segundo.color-acento-contenido
-      h2 4.1	Objetivos y alcance
-
     p Se deben plantear los objetivos específicos teniendo como referente el alcance del manual, este debe ser documentando de la siguiente forma: 
       
-    .row.mt-4
-    .tarjeta--container.row
+    .tarjeta--container.row.mb-5
       
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -52,7 +45,7 @@
               img(src='@/assets/curso/temas/Tema4/img3.svg', alt='Texto que describa la imagen')
           .col-8.mt-4.parrafo_tarjeta_azul_t4
             h2.text-center Alcance
-            p Todo cargo o actividad de la empresa debe tener establecidas unas responsabilidades y procedimientos estandarizados, desde los niveles más bajos con el personal auxiliar y operativo, pasando por el personal técnico, ingeniería, personal administrativo y llegando hasta los altos cargos directivos, deben tener un manual de procedimientos, algunos de carácter general, mientras otros son específicos para cada labor.
+            p Todo cargo o actividad de la empresa debe tener establecidas unas responsabilidades y procedimientos estandarizados: desde los niveles más bajos con el personal auxiliar y operativo, pasando por el personal técnico, ingeniería, personal administrativo y llegando hasta los altos cargos directivos. Se debe tener un manual de procedimientos, algunos de carácter general, mientras otros son específicos para cada labor.
       
 
       .col-md.tarjeta.color-acento-contenido.text-black.p-5
@@ -69,13 +62,7 @@
             p <i class="fas fa-check" STYLE="Color: black"></i> Establecer con detalle las funciones, actividades y temas que pueden generar controversias o discusiones.
             p <i class="fas fa-check" STYLE="Color: black"></i> Garantizar la seguridad, buenas prácticas y uso adecuado de los activos de la empresa.
 
-      separador
-    #t_4_2
-
-    .titulo-segundo.color-acento-contenido
-      h2 4.2	Estructura organizacional 
-
-    p La estructura organizacional que también se contempla en el manual tiene los siguientes elementos:
+    p La estructura organizacional, la cual también se contempla en el manual, tiene los siguientes elementos:
 
     .row.justify-content-around.align-items-center
       .col-lg-11.col-sm-10.mt-5
@@ -93,7 +80,7 @@
                   figure
                   img(src='@/assets/curso/temas/Tema4/img5.svg' width='105px' height='104px')    
                 .col-lg-9
-                  p Toda empresa está compuesta por un grupo de colaboradores con un cargo y responsabilidades predefinidas, conocer cómo es la organización de esta, facilita la canalización de la información para que llegue a quienes son competentes en el tema, y para evitar que se comparta o se generen confusiones al llegar a quienes no resulta relevante dicha información.
+                  p Toda empresa está compuesta por un grupo de colaboradores con un cargo y responsabilidades predefinidas, conocer cómo es la organización de esta, facilita la canalización de la información para que llegue a quienes son competentes en el tema y para evitar que se comparta o se generen confusiones, al llegar a quienes no les resulta relevante dicha información.
                
               .row(titulo="Conducto regular y canales de comunicación")
                 row
@@ -112,13 +99,6 @@
                 .col-lg-9
                   p Cada empleado tendrá sus funciones y límites establecidos, además de un jefe inmediato para canalizar toda información o requerimiento.
                
-      separador
-    
-    #t_4_3
-
-    .titulo-segundo.color-acento-contenido
-      h2 4.3	Lineamientos y políticas corporativas
-
     .row.justify-content-around.align-items-center.mb-5.mt-5
         .col-9
           .row
@@ -126,8 +106,9 @@
               figure
                 img(src='@/assets/curso/temas/Tema4/img8.svg' width='83' height='91')
             .col-lg-9
-              p La empresa necesita definir los lineamientos y políticas sobre las cuales trabajará en el campo de la seguridad digital, algunas políticas establecidas son:
-
+              p La empresa necesita definir los 
+                b lineamientos y políticas corporativas 
+                | sobre las cuales trabajará, en el campo de la seguridad digital. Algunas políticas establecidas son:
     
     .tarjeta.tarjeta--white
       //- PasosB debe ir acompañado de una de una de estas clases => 
@@ -136,7 +117,7 @@
         div(titulo="")
           
           figure
-            img(src='@/assets/curso/temas/Tema4/linea1.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/Tema4/aj3.svg', alt='Texto que describa la imagen')
             
         div(titulo="")
           figure
@@ -161,7 +142,7 @@
 
         div(titulo="")
           figure
-            img(src='@/assets/curso/temas/Tema4/linea7.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/Tema4/aj4.svg', alt='Texto que describa la imagen')
             
         div(titulo="")
           figure
@@ -184,35 +165,8 @@
               figure
                 img(src='@/assets/curso/temas/Tema4/img1.svg' width='52' height='52' )  
             .col-lg-11
-              p Por favor, explore los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
-
-        
-
-        
-
-      
-
-        
-            
-            
-
-            
-            
-            
-
-      
-        
-    
-    
-
-    
-
-   
-    
-
-
-    
 </template>
 
 <script>

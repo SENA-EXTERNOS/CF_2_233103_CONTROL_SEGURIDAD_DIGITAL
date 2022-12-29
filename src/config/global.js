@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Fundamentos y normativa para la ciberseguridad',
     descripcionCurso:
-      'En este contenido temático se definen los conceptos, la normativa y procedimientos básicos de la ciberseguridad en entornos corporativos, necesarios para garantizar el funcionamiento seguro de los procesos de la compañía, previniendo ataques cibernéticos a la información y/o datos vulnerables. Se realiza mediante buenas prácticas y procedimientos adecuados a las normas.  ',
+      'Este componente formativo aborda conceptos y aspectos de la normativa y procedimientos básicos de la ciberseguridad en entornos corporativos, necesarios para garantizar el funcionamiento seguro de los procesos de la compañía, previniendo ataques cibernéticos a la información y/o datos vulnerables. Todos ellos, elementos que se realizan mediante buenas prácticas y procedimientos adecuados a las normas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
 
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal1.png'),
@@ -45,35 +45,13 @@ export default {
         numero: '1',
         titulo: 'Activos de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Conceptualización de activos tecnológicos ',
-            hash: 't_1_1',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Caracterización y clasificación de activos tecnológicos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Gestión de activos tecnológicos: manejo, preservación y evaluación',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Fundamentos de Ciberseguridad',
+        titulo: 'Fundamentos de ciberseguridad',
         desarrolloContenidos: true,
 
         subMenu: [
@@ -100,15 +78,9 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Metodología y estrategias',
+            titulo:
+              'Ciberseguridad: metodología, estrategias y técnicas de diagnóstico',
             hash: 't_2_4',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Técnicas de diagnóstico',
-            hash: 't_2_5',
           },
         ],
       },
@@ -123,42 +95,21 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Conceptos generales',
+            titulo: 'Conceptos generales, principios y políticas',
             hash: 't_3_1',
           },
 
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Principios',
+            titulo: 'Técnicas y procedimientos de la norma',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Políticas',
+            titulo: 'Gestión de riesgos y evaluación',
             hash: 't_3_3',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Técnicas y procedimientos de la norma',
-            hash: 't_3_4',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Gestión de riesgos',
-            hash: 't_3_5',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Evaluación y administración',
-            hash: 't_3_6',
           },
         ],
       },
@@ -169,28 +120,6 @@ export default {
         numero: '4',
         titulo: 'Manual de ciberseguridad corporativa',
         desarrolloContenidos: true,
-
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Objetivos y alcance',
-            hash: 't_4_1',
-          },
-
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Estructura organizacional',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Lineamientos y políticas corporativas',
-            hash: 't_4_3',
-          },
-        ],
       },
     ],
     subMenu: [

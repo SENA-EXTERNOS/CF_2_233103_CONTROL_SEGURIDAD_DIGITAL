@@ -7,17 +7,9 @@
         span 3
       h1 Normativa: ISO 27001
 
-    .row.justify-content-around.align-items-center.mb-5.mt-2
-        .col-8
-          .row
-            .col-lg-3
-              figure
-                img(src='@/assets/curso/temas/Tema3/tema3.svg', alt='Texto que describa la imagen'  ).imagen-decorativa-1
-            .col-lg-9.mt-4
-                p Continuando con el estudio de este recurso educativo, ahora pasamos a conocer detalles sobre la reglamentación de la norma ISO 27001.  
-                p Para el desarrollo de esta sección, se tiene como referente la estructura de ISO 27001:2013 en la guía de implantación para la seguridad de la información proporcionada por el 
-                  b Organismo de Certificación Global  NQA.
-    .row.mt-2.justify-content-center
+    p Este apartado le mostrará detalles y aspectos clave sobre la reglamentación de la norma ISO 27001.
+
+    .row.mt-2.justify-content-center.mb-5
       .col-10
         .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.carimg(
@@ -25,38 +17,35 @@
           )
           .bloque-texto-g__texto3.p-4
             .col-11.col-lg-12
-              p La ISO 27001:2013 es la norma internacional que proporciona un marco de trabajo para los sistemas de gestión de seguridad de la información (SGSI) con el fin de proporcionar confidencialidad, integridad y disponibilidad continuada de la información, así como el cumplimiento legal. La certificación ISO 27001 es esencial para proteger los activos más importantes en la organización, la información de los clientes y empleados, la imagen corporativa y otra información privada. La norma ISO incluye un enfoque basado en procesos para lanzar, implantar, operar y mantener un SGSI. 
-              
+              h4 ¿Qué es la ISO 27001:2013?
+              p.mb-0 Es la norma internacional que proporciona un marco de trabajo para los sistemas de gestión de seguridad de la información (SGSI) con el fin de proporcionar confidencialidad, integridad y disponibilidad continuada de la información, así como el cumplimiento legal. La certificación ISO 27001 es esencial para proteger los activos más importantes en la organización, la información de los clientes y empleados, la imagen corporativa y otra información privada. La norma ISO incluye un enfoque basado en procesos para lanzar, implantar, operar y mantener un SGSI.
 
-        .row.justify-content-around.align-items-centerrd.mt-5
-          .col-12
-            .tarjeta.color-secundario.p-3.mt-4
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-1
-                  img(src="@/assets/curso/temas/Tema3/imag2.svg")
-                .col-9
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h3.mb-1 Guía de implantación NQA
-                      p.text-small Para ampliar la información anterior sobre la implantación de la ISO 27001, ver el documento.
-                    .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_NQA-ISO-27001-Guia-de-implantacion.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
-
+    .row.justify-content-around.align-items-centerrd.mb-5
+      .col-12
+        .tarjeta.color-secundario.p-3.mt-4
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/Tema3/imag2.svg")
+            .col-9
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Guía de implantación NQA
+                  p.text-small Para ampliar la información anterior sobre la implantación de la ISO 27001, ver el documento.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_NQA-ISO-27001-Guia-de-implantacion.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
     separador
-    #t_3_1
 
-    .titulo-segundo.color-acento-contenido
-      h2 3.1	Conceptos generales
+    #t_3_1.titulo-segundo.color-acento-contenido
+      h2 3.1 Conceptos generales, principios y políticas
 
 
-    p.mt-2 La norma ISO 27001 hace parte de la familia de normas ISO27000, algunas normas relevantes al tema en estudio son:
+    p La norma ISO 27001 hace parte de la familia de normas ISO27000, algunas normas relevantes al tema en estudio son:
 
   
-    SlyderF(columnas="col-lg-5 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-5 col-xl-4")
       .tarjeta
         .row.justify-content-center.mb-3
           .col-13
@@ -100,15 +89,6 @@
         .row.justify-content-center.mb-3
           .col-12
             img(src='@/assets/curso/temas/Tema3/7.png' alt='AvatarTop')
-        
-        
-
-    separador
-    #t_3_2
-
-    .titulo-segundo.color-acento-contenido
-      h2 3.2	Principios
-
 
     .row.justify-content-around.align-items-center
       .col-7
@@ -168,18 +148,9 @@
                 p.text-center Proteger la confidencialidad, integridad y disponibilidad de la información.
 
         
-
-    separador
+    p La norma se ejecuta mediante 10 etapas o cláusulas, a continuación, se realiza una breve descripción de cada una:
     
-    #t_3_3
-
-    .titulo-segundo.color-acento-contenido
-      h2 3.3	Políticas
-
-    p.mt-2 La norma se ejecuta mediante 10 etapas o cláusulas, a continuación, se realiza una breve descripción de cada una:
-
-    
-     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azulacordion").mt-5
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azulacordion").mt-5
       .row(titulo="Cláusula 1 - Alcance")
         .row.justify-content-around.align-items-center
         .col-9
@@ -193,7 +164,7 @@
     
          
       
-      div(titulo="Cláusula 2 - base normativa")
+      div(titulo="Cláusula 2 - Base normativa")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -204,7 +175,7 @@
             .col-lg-9
              p La certificación incluye la aplicación de los parámetros de la familia de normas ISO 27000.    
    
-      div(titulo="Cláusula 3- definición de conceptos clave ")
+      div(titulo="Cláusula 3- Definición de conceptos clave")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -215,7 +186,7 @@
             .col-lg-9
              p Se debe incluir la definición de palabras y elementos claves contenidos en la norma ISO 27000.    
    
-      div(titulo="Cláusula 4 -contexto de la organización" width='69px' height='70')
+      div(titulo="Cláusula 4 - Contexto de la organización" width='69px' height='70')
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -224,9 +195,9 @@
               img(src='@/assets/curso/temas/Tema3/img4.svg' width='69px' height='70') 
 
             .col-lg-9
-             p Incluye el análisis del entorno organizacional, proceso y estudio de las vulnerabilidades, además de las necesidades de cada uno.    
+             p Incluye el análisis del entorno organizacional, proceso y estudio de las vulnerabilidades, además de las necesidades de cada una.   
    
-      div(titulo="Cláusula 5 -liderazgo y definición de roles" )
+      div(titulo="Cláusula 5 - Liderazgo y definición de roles" )
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -238,7 +209,7 @@
              p Se establece la distribución de responsabilidades respecto al sistema de seguridad digital de la organización.    
    
 
-      div(titulo="Cláusula 6 - planificación e identificación de riesgos")
+      div(titulo="Cláusula 6 - Planificación e identificación de riesgos")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -247,10 +218,10 @@
               img(src='@/assets/curso/temas/Tema3/img6.svg' width='69px' height='70') 
 
             .col-lg-9
-             p Se plantea la proyección de riesgos, esta cláusula se ampliará en una próxima sección 3.5.   
+             p Se plantea la proyección de riesgos.  
    
 
-      div(titulo="Cláusula 7 - soporte")
+      div(titulo="Cláusula 7 - Soporte")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -262,7 +233,7 @@
              p Se definen los recursos técnicos, humanos y económicos destinados a la implementación y ejecución del sistema de seguridad digital.     
    
 
-      div(titulo="Cláusula 8 -operación")
+      div(titulo="Cláusula 8 - Operación")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -274,7 +245,7 @@
              p En esta fase se definen los parámetros y políticas para la ejecución del sistema de seguridad digital.    
    
 
-      div(titulo="Cláusula 9 -Evaluación")
+      div(titulo="Cláusula 9 - Evaluación")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -283,8 +254,7 @@
               img(src='@/assets/curso/temas/Tema3/img9.svg' width='69px' height='70') 
 
             .col-lg-9
-             p Se realiza la valoración de los resultados del sistema, esta cláusula de ampliará en la próxima sección 3.6.
-
+             p Se realiza la valoración de los resultados del sistema.
 
       div(titulo="Cláusula 10 -mejora")
         .row.justify-content-around.align-items-center
@@ -298,12 +268,7 @@
              p Planteamiento de acciones correctivas y de mejoramiento basados en la evaluación de resultados de la ejecución del sistema de seguridad digital.
    
                         
-     separador
-    
-    #t_3_4
-
-    .titulo-segundo.color-acento-contenido
-      h2 3.4	Técnicas y procedimientos de la norma 
+    h3.titulo-tercero(data-aos='fade-right') Técnicas y procedimientos de la norma
 
     .row
       .col-lg-11.col-sm-10
@@ -314,6 +279,11 @@
        
     .row.justify-content-center.mb-3.mt-5 
       .col-lg-5.col-sm-10  
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 3
+          br
+          em Ciclo PHVA, Planear - Hacer - Verificar - Actuar
+
         ImagenInfografica.color-primario
           template(v-slot:imagen)
           
@@ -383,15 +353,8 @@
               .col-lg-6
                 p La realiza un organismo acreditado para certificar la implementación de la norma donde se evaluará el cumplimiento de esta, en dicha auditoría todo debe estar funcionando según los parámetros, ya que no hay oportunidades de corrección.   
 
-    separador
-    
-    #t_3_5
-
-    .titulo-segundo.color-acento-contenido
-      h2 3.5	Gestión de riesgos  
-
-    P.mt-2 A continuación, se amplía la explicación de la ya mencionada cláusula planeación y evaluación de riesgos: 
-
+    P.mt-2  A continuación, se amplía la explicación de la 
+      b planeación y evaluación de riesgos:
 
     .row
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -430,18 +393,8 @@
           .crd_hover_txt--body
             p.mb-0.text-small Se deben caracterizar o clasificar los riesgos según el tipo de activo que pueden afectar e identificar las posibles soluciones o métodos para reducir su probabilidad o impacto.
 
-
-
-    separador
-    
-    #t_3_6
-
-    .titulo-segundo.color-acento-contenido
-      h2 3.6	Evaluación y administración
-
-    P La evaluación del sistema es el único método para validar que tan efectivo es. 
+    P La evaluación y administración del sistema es el único método para validar que tan efectivo es.
  
-
     .row.justify-content-center
       .col-lg-8  
         PasosA.color-secundario.mb-5(tipo="n")
@@ -477,15 +430,7 @@
                 img(src='@/assets/curso/temas/Tema3/tiempo4.png', alt='Texto que describa la imagen')
 
             .col-md-6.mb-4.mb-md-0.lineat             
-              p.text-small El sistema se administra en base al manual de procedimientos establecido por la empresa.
-          
-            
-                
-
-
-
-
-     
+              p.text-small El sistema se administra con base en el manual de procedimientos establecido por la empresa.
 
 </template>
 

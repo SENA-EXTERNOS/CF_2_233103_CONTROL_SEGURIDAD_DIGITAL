@@ -17,7 +17,7 @@
         
     .row.justify-content-center
         .col-lg-10.sm-8.mt-5       
-            p En el siguiente diagrama se encuentra un resumen de conceptos y palabras claves de los temas abordados en este contenido formativo.
+            p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
         
 
