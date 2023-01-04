@@ -266,9 +266,10 @@
 
             .col-lg-10
              p Planteamiento de acciones correctivas y de mejoramiento basados en la evaluación de resultados de la ejecución del sistema de seguridad digital.
-   
-                        
-    h3.titulo-tercero(data-aos='fade-right') Técnicas y procedimientos de la norma
+    separador
+
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 3.2 Técnicas y procedimientos de la norma
 
     .row
       .col-lg-11.col-sm-10
@@ -352,11 +353,14 @@
 
               .col-lg-6
                 p La realiza un organismo acreditado para certificar la implementación de la norma donde se evaluará el cumplimiento de esta, en dicha auditoría todo debe estar funcionando según los parámetros, ya que no hay oportunidades de corrección.   
+    separador
 
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 3.3 Gestión de riesgos y evaluación 
     P.mt-2  A continuación, se amplía la explicación de la 
       b planeación y evaluación de riesgos:
 
-    .row
+    .row.mb-5
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
