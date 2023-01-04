@@ -164,19 +164,40 @@ export default {
   },
   complementario: [
     {
-      tema: 'ISO 27001 - Seguridad de la Información',
+      tema: 'ISO 27001',
       referencia:
         'Procem Consultores (2018). ISO 27001 - Seguridad de la Información.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=BNdPQU32p2Y&ab_channel=ProcemConsultores ',
     },
+    // {
+    //   tema: 'Análisis de vulnerabilidades',
+    //   referencia: 'Cloud seguro. (2021). Análisis de Vulnerabilidades.',
+    //   tipo: 'Video',
+    //   link:
+    //     'https://www.youtube.com/watch?v=dwhIZdqFyyI&ab_channel=CloudSeguro ',
+    // },
     {
-      tema: 'Análisis de vulnerabilidades',
-      referencia: 'Cloud seguro. (2021). Análisis de Vulnerabilidades.',
+      tema: 'Fundamentos de ciberseguridad',
+      referencia:
+        'Curso Introducción al Hacking & Penstesting (2020). Análisis de Vulnerabilidades.',
       tipo: 'Video',
-      descarga:
-        'https://www.youtube.com/watch?v=dwhIZdqFyyI&ab_channel=CloudSeguro ',
+      link: 'https://www.youtube.com/watch?v=Rji6lKeZUvA',
+    },
+    {
+      tema: 'Activos de información',
+      referencia:
+        'Instituto Nacional de Tecnologías de la Información, España (2012). Activos de información.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=THnQ2FH7NtU',
+    },
+    {
+      tema: 'Fundamentos de ciberseguridad',
+      referencia:
+        'Rodríguez Cruz, D. (2020). Objetivos de la ciberseguridad y causas de los riesgos.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0mqc4fde8y0',
     },
   ],
   glosario: [

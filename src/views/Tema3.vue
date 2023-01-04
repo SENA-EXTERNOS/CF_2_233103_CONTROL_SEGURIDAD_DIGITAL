@@ -329,7 +329,7 @@
                 img(src='@/assets/curso/temas/Tema3/aco1.svg' width='133px' height='129px')             
             
               .col-lg-6
-                p Es realizada por el personal interno de la empresa, su objetivo es identificar fallos en una primera estancia y preparar las auditorías externas para certificar la norma.
+                p Es realizada por el personal interno de la empresa, su objetivo es identificar fallos en una primera instancia y preparar las auditorías externas para certificar la norma.
             
           
           div(titulo="Auditoría externa")
