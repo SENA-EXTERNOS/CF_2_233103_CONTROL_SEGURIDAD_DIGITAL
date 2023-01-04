@@ -355,7 +355,7 @@
                 p La realiza un organismo acreditado para certificar la implementación de la norma donde se evaluará el cumplimiento de esta, en dicha auditoría todo debe estar funcionando según los parámetros, ya que no hay oportunidades de corrección.   
     separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.3 Gestión de riesgos y evaluación 
     P.mt-2  A continuación, se amplía la explicación de la 
       b planeación y evaluación de riesgos:

@@ -200,7 +200,8 @@
           p Compruebe el listado de programas instalados y la lista de procesos en ejecución de cada equipo.
 
         .tarjeta.color-tarjetacliente.p-4(titulo="Físico/locativo")          
-          p Los activos están expuestos a algún factor ambiental, físico o humano que pueda ocasionar daños o pérdidas en los equipos y la información; revise las instalaciones eléctricas, niveles de voltaje, protecciones, sistemas contra incendios, extintores, sustancias, equipos o procedimientos riesgosos cerca de estos.
+          p Los activos ¿están expuestos a algún factor ambiental, físico o humano que pueda ocasionar daños o pérdidas en los equipos y la información?
+          p Revise las instalaciones eléctricas, niveles de voltaje, protecciones, sistemas contra incendios, extintores, sustancias, equipos o procedimientos riesgosos cerca de estos.
 
         .tarjeta.color-tarjetacliente.p-4(titulo="Factores humanos")          
           p ¿Cuánto conocen las personas que manejan información en la empresa? ¿Qué nivel de formación y cualificación tiene el personal para favorecer la seguridad de la información? 
