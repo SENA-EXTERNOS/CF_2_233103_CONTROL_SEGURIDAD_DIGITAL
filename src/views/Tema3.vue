@@ -42,7 +42,7 @@
       h2 3.1 Conceptos generales, principios y políticas
 
 
-    p La norma ISO 27001 hace parte de la familia de normas ISO27000, algunas normas relevantes al tema en estudio son:
+    p La norma ISO 27001 hace parte de la familia de normas ISO27000, conozcamos algunos aspectos importantes sobre ellas:
 
   
     SlyderF.mb-5(columnas="col-lg-5 col-xl-4")

@@ -15,7 +15,7 @@
           )
           .bloque-texto-g__texto2.p-4
             .col-10.col-lg-12
-              p Para avanzar con el desarrollo del tema, es necesario tener claro el concepto de ciberseguridad. En este punto, haga una primera aproximación, prestando atención a los siguientes aspectos:
+              p Para avanzar con el desarrollo del tema, es necesario tener claro el concepto de <b>ciberseguridad</b>. En este punto, haga una primera aproximación, prestando atención a los siguientes aspectos:
     
 
     separador
