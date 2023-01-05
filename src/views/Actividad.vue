@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Falso / verdadero
             .col-auto
-              a.boton.boton--b.fnd-1(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b.fnd-1(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
