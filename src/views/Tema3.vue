@@ -285,9 +285,10 @@
           br
           em Ciclo PHVA, Planear - Hacer - Verificar - Actuar
 
-        ImagenInfografica.color-primario
+        ImagenInfografica.color-primario(@mouseover="indicadorTarjetaFlip = false")
           template(v-slot:imagen)
           
+            .indicador--hover(v-if="indicadorTarjetaFlip")
             figure
               img(src='@/assets/curso/temas/Tema3/imgcolores.svg', alt='Texto que describa la imagen')
             
@@ -363,7 +364,8 @@
     .row.mb-5
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
             figure
             img(src="@/assets/curso/temas/Tema3/3.5.1.png"  )
           .crd_hover_txt--body
@@ -442,6 +444,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
+    indicadorTarjetaFlip: true,
     // variables de vue
   }),
   mounted() {

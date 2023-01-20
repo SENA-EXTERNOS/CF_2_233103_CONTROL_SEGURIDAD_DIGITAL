@@ -27,8 +27,8 @@
                   .col-9
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h3.mb-1 Manual de procedimientos departamento de sistemas dif estatal chihuahua 
-                        p.text-small Se recomienda revisar el Anexo 2 Manual de procedimientos departamento de sistemas dif estatal chihuahua, para reconocer el contenido y metodología de un manual de procedimientos.
+                        h3.mb-1 Manual de procedimientos departamento de sistemas DIF estatal chihuahua 
+                        p.text-small Se recomienda revisar el Anexo 2 Manual de procedimientos departamento de sistemas DIF estatal chihuahua, para reconocer el contenido y metodología de un manual de procedimientos.
                       .col-sm-auto
                         a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo2_Manual de procedimientos chihuahua.pdf')" target="_blank")
                           span Descargar

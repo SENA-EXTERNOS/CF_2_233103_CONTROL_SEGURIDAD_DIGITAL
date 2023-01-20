@@ -87,7 +87,7 @@
       .row.justify-content-around.align-items-center
         .col-md-4.mb-4.mb-md-0
             h4 Integridad                                 
-            p Cualidad, de la información, de estar completa y ser exacta.
+            p Cualidad de la información, de estar completa y ser exacta.
       
         .col-md-5
           figure
