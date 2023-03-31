@@ -70,28 +70,28 @@
     SlyderF.mb-5.mt-5(columnas="col-lg-5 col-xl-4")
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel1.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--amarilla-1.p-4
-          h4.text-center.mt-5 Crecimiento exponencial
-          p.text-center.text-small Citando nuevamente a Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020), “en España, por ejemplo, en solo un año, entre 2018 y 2019, los ciberdelitos denunciados representaron un 10% del total de denuncias por algún tipo de delito, y en este mismo periodo se tuvo un aumento del 35% de los casos reportados”.
+        .tarjeta.tarjeta--amarilla-1.p-3
+          h4.text-center.mt-4 Crecimiento exponencial
+          p.text-center Citando nuevamente a Arroyo Guardeño, D. Gayoso Martínez, V. & Hernández Encinas, L. (2020), “en España, por ejemplo, en solo un año, entre 2018 y 2019, los ciberdelitos denunciados representaron un 10% del total de denuncias por algún tipo de delito, y en este mismo periodo se tuvo un aumento del 35% de los casos reportados”.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel2.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--amarilla-1.p-4
-          h4.text-center.mt-5 En Colombia
-          p.text-center.text-small Según cifras del Centro Cibernético Policial MinTIC (2021), durante el año 2021 los delitos cibernéticos ascendieron a 33.465, lo que significa un aumento de 17% en comparación con 2020, cuando fueron 28.524 casos. Además, se recibieron 1.558 denuncias y se efectuaron 49 capturas.
+        .tarjeta.tarjeta--amarilla-1.p-3
+          h4.text-center.mt-4 En Colombia
+          p.text-center Según cifras del Centro Cibernético Policial MinTIC (2021), durante el año 2021 los delitos cibernéticos ascendieron a 33.465, lo que significa un aumento de 17% en comparación con 2020, cuando fueron 28.524 casos. Además, se recibieron 1.558 denuncias y se efectuaron 49 capturas.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel3.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--amarilla-1.p-4
-          h4.text-center.mt-5 El precio de los fallos en ciberseguridad
-          p.text-center.text-small La revista portafolio (2022), indica que, en el mundo, durante el último año, los ciberdelitos crecieron en un 150% y, aproximadamente, el 32% de las empresas fueron atacadas. Estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos e, inclusive, gobiernos, por lo cual tales pagos representan cantidades de dinero considerables.
+        .tarjeta.tarjeta--amarilla-1.p-3
+          h4.text-center.mt-4 El precio de los fallos en ciberseguridad
+          p.text-center La revista portafolio (2022), indica que, en el mundo, durante el último año, los ciberdelitos crecieron en un 150% y, aproximadamente, el 32% de las empresas fueron atacadas. Estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos e, inclusive, gobiernos, por lo cual tales pagos representan cantidades de dinero considerables.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel4.svg' alt='AvatarTop')
-        .tarjeta.tarjeta--amarilla-1.p-4
-          h4.text-center.mt-5 Políticas públicas:
-          p.text-center.text-small Según MinTIC (2021), el propósito de la política de seguridad digital es que las personas y las empresas conozcan e identifiquen los riesgos a los que están expuestos en el entorno digital y aprendan cómo protegerse, prevenir y reaccionar ante los delitos y ataques cibernéticos.
-          p.text-center.text-small Esta labor a nivel institucional requiere un arduo trabajo e inversión conjuntas entre el estado y la empresa privada, labor que tiene un alto componente educativo que exige adoptar una cultura de seguridad digital en el país.
+        .tarjeta.tarjeta--amarilla-1.p-3
+          h4.text-center.mt-4 Políticas públicas:
+          p.text-center Según MinTIC (2021), el propósito de la política de seguridad digital es que las personas y las empresas conozcan e identifiquen los riesgos a los que están expuestos en el entorno digital y aprendan cómo protegerse, prevenir y reaccionar ante los delitos y ataques cibernéticos.
+          p.text-center Esta labor a nivel institucional requiere un arduo trabajo e inversión conjuntas entre el estado y la empresa privada, labor que tiene un alto componente educativo que exige adoptar una cultura de seguridad digital en el país.
    
     separador
 
