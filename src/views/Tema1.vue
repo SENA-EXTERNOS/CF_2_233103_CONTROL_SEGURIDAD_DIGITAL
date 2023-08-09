@@ -176,7 +176,7 @@
     h3.titulo-tercero(data-aos='fade-right') Gestión de activos tecnológicos: manejo, preservación y evaluación
     
     p Para realizar una gestión correcta de los activos tecnológicos se debe tener claridad sobre las características de cada uno de los elementos que integran el proceso de gestión. 
-        
+    p.mb-5 Son tres los aspectos importantes relacionados con la gestión de los activos tecnológicos
     .row.justify-content-center.mb-5
       .col-lg-7.sm-8
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--acordion")

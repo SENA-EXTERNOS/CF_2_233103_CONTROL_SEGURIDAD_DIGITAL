@@ -285,7 +285,7 @@
           br
           em Ciclo PHVA, Planear - Hacer - Verificar - Actuar
 
-        ImagenInfografica.color-primario(@mouseover="indicadorTarjetaFlip = false")
+        ImagenInfografica.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           template(v-slot:imagen)
           
             .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -293,25 +293,25 @@
               img(src='@/assets/curso/temas/Tema3/imgcolores.svg', alt='Texto que describa la imagen')
             
 
-          .tarjeta.color-secundario.p-3(x="51%" y="6.5%" numero="A")
+          .tarjeta.color-secundario.p-3(x="48.5%" y="13%" numero="A")
             p #[b Planear:]
               |  analizar y establecer los objetivos, recursos y procedimientos para la implementación.
 
-          .tarjeta.color-acento-botones.p-3(x="85%" y="41%" numero="B")
+          .tarjeta.color-acento-botones.p-3(x="82.5%" y="48%" numero="B")
             p #[b Hacer:] 
               | ejecutar las acciones formuladas en la planeación.
           
 
-          .tarjeta.color-oliva.p-3(x="48%" y="94%" numero="C")
+          .tarjeta.color-oliva.p-3(x="48%" y="83%" numero="C")
             p #[b Verificar:] 
               | evaluar los resultados y funcionamiento del sistema e identificar vulnerabilidades.
 
 
-          .tarjeta.color-primario.p-3(x="15%" y="40%" numero="D")
+          .tarjeta.color-primario.p-3(x="12.5%" y="47%" numero="D")
             p #[b Actuar:] 
               | establecer acciones de mejora y actualización.
 
-          .tarjeta.color-white.p-3(x="50%" y="40%" numero="E")
+          .tarjeta.color-white.p-3(x="48%" y="46%" numero="E")
             p #[b Ciclo PHVA:] 
               | se implementa a través del método PHVA, (planear, hacer, verificar, actuar), como está registrado en el orden lógico de las 10 cláusulas.
 

@@ -1,1 +1,1 @@
-module.exports = 'Control de la seguridad digital'
+module.exports = 'Fundamentos y normativa para la ciberseguridad'

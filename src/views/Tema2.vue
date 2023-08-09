@@ -154,7 +154,7 @@
         
         .row.justify-content-center
           .col-lg-11.mt-5
-            p.text-small En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías que marquen la ruta por seguir, cómo garantía de seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.
+            p.mb-0 En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías que marquen la ruta por seguir, cómo garantía de seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.
 
     figure.mb-5
       .video

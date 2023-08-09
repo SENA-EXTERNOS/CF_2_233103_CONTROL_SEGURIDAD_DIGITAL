@@ -281,7 +281,7 @@ export default {
       referencia:
         'ISO 27001:2013 Guía de implantación para la seguridad de la información. (s.f.). Nga.',
       link:
-        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf .',
+        'https://www.nqa.com/medialibraries/NQA/NQA-Media-Library/PDFs/Spanish%20QRFs%20and%20PDFs/NQA-ISO-27001-Guia-de-implantacion.pdf',
     },
     {
       referencia:
@@ -298,7 +298,7 @@ export default {
     {
       referencia: 'Pérez-Montoro, M. (2009). Gestión del conocimiento.',
       link:
-        'http://glossarium.bitrum.unileon.es/Home/gestion-del-conocimiento-knowledge-management  ',
+        'https://diposit.ub.edu/dspace/bitstream/2445/123350/1/Pe%CC%81rez-Montoro%20%282008%29%20Gestio%CC%81n%20del%20conocimiento%20en%20las%20organizaciones.pdf',
     },
     {
       referencia:
