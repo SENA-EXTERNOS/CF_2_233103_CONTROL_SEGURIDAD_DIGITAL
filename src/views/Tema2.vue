@@ -84,7 +84,7 @@
         img(src='@/assets/curso/temas/Tema2/carrusel3.svg' alt='AvatarTop')
         .tarjeta.tarjeta--amarilla-1.p-3
           h4.text-center.mt-4 El precio de los fallos en ciberseguridad
-          p.text-center La revista portafolio (2022), indica que, en el mundo, durante el último año, los ciberdelitos crecieron en un 150% y, aproximadamente, el 32% de las empresas fueron atacadas. Estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos e, inclusive, gobiernos, por lo cual tales pagos representan cantidades de dinero considerables.
+          p.text-center La revista portafolio (2022), indica que, en el mundo, durante el último año, los ciberdelitos crecieron en un 150% y, aproximadamente, el 32% de las empresas fueron atacadas. Estas se vieron en la obligación de pagar rescates a piratas informáticos para recuperar su información. Entre esas empresas se encuentran corporaciones, bancos e inclusive, gobiernos, por lo cual tales pagos representan cantidades de dinero considerables.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/Tema2/carrusel4.svg' alt='AvatarTop')
@@ -154,7 +154,7 @@
         
         .row.justify-content-center
           .col-lg-11.mt-5
-            p.mb-0 En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías que marquen la ruta por seguir, cómo garantía de seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.
+            p.mb-0 En la ciberseguridad es necesario plantear estrategias que se desarrollen a través de métodos y metodologías que marquen la ruta por seguir, como garantía de seguridad digital de la información en la organización. En el siguiente vídeo se detallan las metodologías y estrategias.
 
     figure.mb-5
       .video

@@ -160,7 +160,7 @@
               em Software 
               | de uso corporativo: programas necesarios para ejecutar los procesos de la empresa.
             p <i class="fas fa-check" STYLE="Color: #112782"></i> Documentos almacenados en archivo físico.
-            p <i class="fas fa-check" STYLE="Color: #112782"></i> Conocimiento de la operación: conocimiento de los procesos generado por los trabajadores.
+            p <i class="fas fa-check" STYLE="Color: #112782"></i> Conocimiento de la operación: conocimiento de los procesos generados por los trabajadores.
             
               
       .tarjeta.color-tarjetacliente.p-4(titulo="Activos físicos")

@@ -42,7 +42,7 @@
       h2 3.1 Conceptos generales, principios y políticas
 
 
-    p La norma ISO 27001 hace parte de la familia de normas ISO27000, conozcamos algunos aspectos importantes sobre ellas:
+    p La norma ISO 27001, hace parte de la familia de normas ISO27000, conozcamos algunos aspectos importantes sobre ellas:
 
   
     SlyderF.mb-5(columnas="col-lg-5 col-xl-4")
@@ -175,7 +175,7 @@
             .col-lg-9
              p La certificación incluye la aplicación de los parámetros de la familia de normas ISO 27000.    
    
-      div(titulo="Cláusula 3- Definición de conceptos clave")
+      div(titulo="Cláusula 3- Definición de conceptos claves")
         .row.justify-content-around.align-items-center
         .col-9
           .row
@@ -256,7 +256,7 @@
             .col-lg-9
              p Se realiza la valoración de los resultados del sistema.
 
-      div(titulo="Cláusula 10 -mejora")
+      div(titulo="Cláusula 10 - Mejora")
         .row.justify-content-around.align-items-center
         .col-9
           .row
